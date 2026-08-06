@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap')
+layer(base);
+
+@import 'tailwindcss';
+
+@custom-variant dark (&:is(.dark *));
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+@keyframes sway {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(8px); }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes borderPulse {
+  0%, 100% { border-color: rgba(16, 185, 129, 0.25); }
+  50% { border-color: rgba(16, 185, 129, 0.75); }
+}
+
+@keyframes arrowMove {
+  0%, 100% { transform: translateX(0); opacity: 0.4; }
+  50% { transform: translateX(6px); opacity: 1; }
+}
+
+@keyframes arrowMoveDown {
+  0%, 100% { transform: translateY(0); opacity: 0.4; }
+  50% { transform: translateY(6px); opacity: 1; }
+}
+
+@keyframes popIn {
+  0% { transform: scale(0); opacity: 0; }
+  60% { transform: scale(1.25); opacity: 1; }
+  100% { transform: scale(1); }
+}
+
+@keyframes twinkle {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.4); opacity: 0.5; }
+}
+
+.star-twinkle {
+  display: inline-block;
+  animation: twinkle 1.4s ease-in-out infinite;
+}
+
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-xs: 450px;
+  --breakpoint-sm: 575px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-2xl: 1400px;
+
+  --color-current: currentColor;
+  --color-transparent: transparent;
+  --color-white: #ffffff;
+  --color-black: #121723;
+  --color-dark: #1d2430;
+  --color-primary: #10b981;
+  --color-yellow: #fbb040;
+  --color-bg-color-dark: #171c28;
+
+  --color-body-color: #fff;
+  --color-body-color-dark: #959cb1;
+
+  --color-stroke-stroke: #e3e8ef;
+  --color-stroke-dark: #353943;
+
+  --color-gray-50: #f9fafb;
+  --color-gray-100: #f3f4f6;
+  --color-gray-200: #ffffff;
+  --color-gray-300: #d1d5db;
+  --color-gray-400: #9ca3af;
+  --color-gray-500: #6b7280;
+  --color-gray-600: #4b5563;
+  --color-gray-700: #374151;
+  --color-gray-800: #1f2937;
+  --color-gray-900: #111827;
+  --color-gray-950: #030712;
+  --color-gray-dark: #1e232e;
+  --color-gray-light: #f0f2f9;
+
+  --shadow-sign-up: 0px 5px 10px rgba(4, 10, 34, 0.2);
+  --shadow-one: 0px 2px 3px rgba(7, 7, 77, 0.05);
+  --shadow-two: 0px 5px 10px rgba(6, 8, 15, 0.1);
+  --shadow-three: 0px 5px 15px rgba(6, 8, 15, 0.05);
+  --shadow-sticky: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
+  --shadow-sticky-dark: inset 0 -1px 0 0 rgba(255, 255, 255, 0.1);
+  --shadow-feature-2: 0px 10px 40px rgba(48, 86, 211, 0.12);
+  --shadow-submit: 0px 5px 20px rgba(4, 10, 34, 0.1);
+  --shadow-submit-dark: 0px 5px 20px rgba(4, 10, 34, 0.1);
+  --shadow-btn: 0px 1px 2px rgba(4, 10, 34, 0.15);
+  --shadow-btn-hover: 0px 1px 2px rgba(0, 0, 0, 0.15);
+  --shadow-btn-light: 0px 1px 2px rgba(0, 0, 0, 0.1);
+
+  --drop-shadow-three: 0px 5px 15px rgba(6, 8, 15, 0.05);
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--color-primary) !important;
+  }
+
+  p {
+    color: var(--color-white) !important;
+  }
+
+  .text-primary {
+    color: var(--color-primary) !important;
+  }
+
+  .bg-primary {
+    color: var(--color-black) !important;
+  }
+}
+
+@utility sticky {
+  & .header-logo {
+    @apply py-5 lg:py-2;
+  }
+
+  & .menu-scroll.active {
+    @apply opacity-70;
+  }
+}
+
+@utility header-logo {
+  .sticky & {
+    @apply py-5 lg:py-2;
+  }
+}
+
+@utility menu-scroll {
+  .sticky &.active {
+    @apply opacity-70;
+  }
+}
+
+@utility active {
+  .sticky &.menu-scroll {
+    @apply opacity-70;
+  }
+}
+
+@utility dot {
+  input#togglePlan:checked ~ & {
+    @apply translate-x-full;
+  }
+}
+
+@utility box {
+  input#checkboxLabel:checked ~ & span {
+    @apply opacity-100;
+  }
+}
+
+@layer base {
+  body {
+    font-family: "Sora", sans-serif;
+  }
+}
+
+@layer components {
+  input[type="checkbox"]:checked ~ label span svg {
+    @apply inline-flex;
+  }
+}
+
+/* BUTTON WRAPPER */
+.button-wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* BASE BUTTON STYLE */
+.custom-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 22px;
+  border-radius: 14px;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  transition: 0.2s ease;
+}
+
+.custom-btn:hover {
+  transform: scale(1.05);
+}
+
+/* ICON */
+.btn-icon {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+}
+
+/* WHATSAPP BUTTON */
+.whatsapp-btn {
+  background-color: #25d366;
+  color: #fff;
+}
+
+/* CALL BUTTON */
+.call-btn {
+  background-color: #d9f45f;
+  color: #000;
+}
+
+/* WOBBLE ANIMATION */
+@keyframes wobble-btn {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  15% {
+    transform: translateX(-6px) rotate(-1deg);
+  }
+  30% {
+    transform: translateX(6px) rotate(1deg);
+  }
+  45% {
+    transform: translateX(-4px) rotate(-0.7deg);
+  }
+  60% {
+    transform: translateX(3px) rotate(0.5deg);
+  }
+  75% {
+    transform: translateX(-2px) rotate(-0.3deg);
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+  }
+}
+
+.wobble-btn {
+  animation: wobble-btn 1.8s ease-in-out infinite;
+  display: inline-flex;
+  will-change: transform;
+}
+
+/* Sticky bottom buttons for mobile */
+@media (max-width: 768px) {
+  .button-wrapper {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 8px;
+    padding: 6px 8px;
+    z-index: 9999;
+    box-shadow: 0 -3px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .button-wrapper a.custom-btn {
+    flex: 1;
+    text-align: center;
+    padding: 6px 4px;
+    border-radius: 6px;
+    font-size: 12px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    margin: 0;
+  }
+
+  .button-wrapper .btn-icon {
+    width: 13px;
+    height: 13px;
+  }
+
+  body {
+    padding-bottom: 56px; /* prevent content from hiding behind sticky buttons */
+  }
+}
+
+/* Shrink general custom-btn (Discover More / WhatsApp pairs) on mobile so they fit in one row */
+@media (max-width: 480px) {
+  .custom-btn {
+    margin: 0;
+    padding: 6px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    gap: 4px;
+  }
+
+  .custom-btn .btn-icon {
+    width: 16px;
+    height: 16px;
+  }
+}
