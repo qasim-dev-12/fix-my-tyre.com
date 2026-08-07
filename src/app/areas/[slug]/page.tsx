@@ -28,8 +28,8 @@ export async function generateMetadata({
   const area = areas.find((a) => slugify(a) === slug);
   if (!area) return {};
   return {
-    title: `Mobile Tyre Service in ${area} | 800 Speedy`,
-    description: `Fast, on-site tyre repair and replacement in ${area}, Dubai. 800 Speedy reaches you in 30-45 minutes, 24/7.`,
+    title: `Mobile Tyre Service in ${area} | Fix My Tyre`,
+    description: `Fast, on-site tyre repair and replacement in ${area}, Dubai. Fix My Tyre reaches you in 30-45 minutes, 24/7.`,
   };
 }
 
@@ -49,7 +49,7 @@ const AreaPage = async ({
       <section className="relative flex h-[70vh] min-h-[480px] items-center overflow-hidden pt-28 lg:pt-[150px]">
         <Image
           src={`/images/areas/dubai-${photoIndex}.jpg`}
-          alt={`800 Speedy tyre service in ${area}, Dubai`}
+          alt={`Fix My Tyre tyre service in ${area}, Dubai`}
           fill
           priority
           className="object-cover"
@@ -66,7 +66,7 @@ const AreaPage = async ({
             Stuck With a Flat Tyre in {area}? We&apos;re There in 30 Minutes.
           </h1>
           <p className="mb-8 max-w-[600px] text-base font-medium leading-relaxed text-white/85 sm:text-lg">
-            800 Speedy brings on-site tyre repair, replacement, and roadside
+            Fix My Tyre brings on-site tyre repair, replacement, and roadside
             assistance straight to your door in {area} — any time, day or
             night.
           </p>

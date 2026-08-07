@@ -10,10 +10,14 @@ const Footer = () => {
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-5/12">
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-flex items-center gap-2">
-                  <img src="/images/logo/logo-800speedy-white.png" alt="800 Speedy" className="h-10 w-auto" />
+                  <img
+                    src="/images/logo/logo-fixmytyre.png"
+                    alt="Fix My Tyre"
+                    className="h-12 w-auto"
+                  />
                 </Link>
                 <p className="mb-4 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  800 Speedy is your one-stop mobile tyre repair and
+                  Fix My Tyre is your one-stop mobile tyre repair and
                   replacement service in Dubai, specialising in on-the-spot
                   automotive services, available 24/7, 365 days a year.
                 </p>
@@ -102,7 +106,7 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  800 Speedy
+                  Fix My Tyre
                 </h2>
                 <ul>
                   <li>
@@ -194,7 +198,7 @@ const Footer = () => {
           <div className="h-px w-full bg-linear-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              © {new Date().getFullYear()} 800 Speedy. All rights reserved. Genuine tyres, 24/7 doorstep fitting across the UAE.
+              © {new Date().getFullYear()} Fix My Tyre. All rights reserved. Genuine tyres, 24/7 doorstep fitting across the UAE.
             </p>
           </div>
         </div>

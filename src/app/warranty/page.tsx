@@ -6,8 +6,8 @@ import { Section, SplitContent, DotList } from "@/components/Services/ServiceSec
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Warranty | 800 Speedy",
-  description: "Warranty terms for tyres fitted by 800 Speedy.",
+  title: "Warranty | Fix My Tyre",
+  description: "Warranty terms for tyres fitted by Fix My Tyre.",
 };
 
 const PHONE = "+971547613616";
@@ -26,7 +26,7 @@ const covered = [
 const notCovered = [
   "Physical damage, cuts, or punctures from road hazards",
   "Damage caused by incorrect pressure or overloading",
-  "Tyres not supplied or fitted by 800 Speedy",
+  "Tyres not supplied or fitted by Fix My Tyre",
   "Claims made without proof of purchase or invoice",
   "Normal tread wear beyond the warranty period",
 ];
@@ -36,7 +36,7 @@ const keepValidTips = [
   "Check tyre pressure and tread depth every month",
   "Avoid overloading your vehicle beyond its rated capacity",
   "Get wheel alignment and balancing checked regularly",
-  "Only get repairs done by authorized 800 Speedy technicians",
+  "Only get repairs done by authorized Fix My Tyre technicians",
 ];
 
 const claimSteps = [
@@ -47,7 +47,7 @@ const claimSteps = [
 ];
 
 const testimonials = [
-  { name: "Adel", area: "Al Barsha", quote: "Tyre developed a sidewall issue within months and 800 Speedy replaced it free of charge in 20 minutes, no questions asked." },
+  { name: "Adel", area: "Al Barsha", quote: "Tyre developed a sidewall issue within months and Fix My Tyre replaced it free of charge in 20 minutes, no questions asked." },
   { name: "Nadia", area: "Mirdif", quote: "Warranty claim was simple — just showed my invoice and the technician swapped the tyre on-site." },
   { name: "Salem", area: "Deira", quote: "Honest about what was covered and what wasn't. Appreciated the clear explanation." },
 ];
@@ -70,10 +70,10 @@ const WarrantyPage = () => {
             <div className="w-full px-4 md:w-7/12">
               <div className="mb-8 max-w-[570px] md:mb-0">
                 <h1 className="mb-5 text-2xl font-bold text-black dark:text-white sm:text-3xl">
-                  Tyre Warranty – 800 Speedy Dubai
+                  Tyre Warranty – Fix My Tyre Dubai
                 </h1>
                 <p className="mb-4 text-base font-medium leading-relaxed text-body-color">
-                  All tyres provided by 800 Speedy come with a 2-month warranty and a one-time free replacement.
+                  All tyres provided by Fix My Tyre come with a 2-month warranty and a one-time free replacement.
                 </p>
                 <p className="mb-4 text-base font-medium leading-relaxed text-body-color">
                   We stand behind every tyre we fit — genuine products, transparent terms, and fast on-site replacement if anything goes wrong.

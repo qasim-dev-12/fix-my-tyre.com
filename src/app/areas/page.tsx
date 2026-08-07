@@ -6,7 +6,7 @@ import { slugify } from "@/lib/areaSlug";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Areas We Cover | 800 Speedy",
+  title: "Areas We Cover | Fix My Tyre",
   description: "Mobile tyre repair and replacement services across Dubai.",
 };
 
@@ -31,7 +31,7 @@ const AreasPage = () => {
                   <div className="relative h-36 w-full">
                     <Image
                       src={`/images/areas/dubai-${(index % AREA_PHOTOS) + 1}.jpg`}
-                      alt={`800 Speedy tyre service in ${area}, Dubai`}
+                      alt={`Fix My Tyre tyre service in ${area}, Dubai`}
                       fill
                       className="object-cover"
                     />

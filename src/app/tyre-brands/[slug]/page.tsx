@@ -44,7 +44,7 @@ const TyreBrandPage = async ({
             <div className="w-full px-4 md:w-5/12">
               {brand.image ? (
                 <div className="relative h-[300px] w-full overflow-hidden rounded-lg shadow-one">
-                  <Image src={brand.image} alt={`${brand.title} fitted by an 800 Speedy technician in Dubai`} fill className="object-cover" />
+                  <Image src={brand.image} alt={`${brand.title} fitted by an Fix My Tyre technician in Dubai`} fill className="object-cover" />
                 </div>
               ) : (
                 <BrandImage base="about-image" alt={brand.title} />
@@ -132,7 +132,7 @@ const TyreBrandPage = async ({
           <SplitContent
             imageBase="about-image-2"
             imageSrc={brand.image}
-            imageAlt={brand.whyChooseUsTitle ?? "Why Choose 800 Speedy"}
+            imageAlt={brand.whyChooseUsTitle ?? "Why Choose Fix My Tyre"}
             badge={
               <span className="absolute -top-4 left-1/2 -translate-x-1/2 rounded-full bg-primary px-5 py-2 text-sm font-semibold text-white shadow-lg lg:left-0 lg:translate-x-0">
                 10+ Years Experience
@@ -140,7 +140,7 @@ const TyreBrandPage = async ({
             }
           >
             <h2 className="mb-4 text-2xl font-bold leading-tight text-black dark:text-white sm:text-3xl">
-              {brand.whyChooseUsTitle ?? "Why Choose 800 Speedy?"}
+              {brand.whyChooseUsTitle ?? "Why Choose Fix My Tyre?"}
             </h2>
             <p className="mb-6 text-base leading-relaxed text-body-color">{brand.whyChooseUsIntro}</p>
             <ul className="mb-6 space-y-3 border-l-2 border-primary/20 pl-5">

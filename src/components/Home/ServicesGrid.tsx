@@ -19,7 +19,7 @@ const ServicesGrid = () => {
       <div className="container">
         <SectionTitle
           title="Every Tyre Service, One Call Away in Dubai"
-          paragraph="800 Speedy runs fully stocked mobile vans across the city, ready to reach you in 20-30 minutes for anything your tyres need."
+          paragraph="Fix My Tyre runs fully stocked mobile vans across the city, ready to reach you in 20-30 minutes for anything your tyres need."
           center
         />
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">

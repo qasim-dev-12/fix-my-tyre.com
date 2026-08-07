@@ -16,7 +16,7 @@ import EmergencyCTA from "@/components/Home/EmergencyCTA";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "800 Speedy | Tyre Repair Dubai",
+  title: "Fix My Tyre | Tyre Repair Dubai",
   description:
     "Fastest on-site tyre repair in Dubai. Michelin, Bridgestone, Pirelli & more delivered and fitted in 20-30 minutes, 24/7.",
 };
@@ -41,7 +41,7 @@ export default function Home() {
           "Rotate tyres regularly for even wear",
           "Get wheel alignment and balancing checked periodically",
           "Avoid overloading your vehicle beyond its rated capacity",
-          "Schedule a free tyre health check every 6 months with 800 Speedy",
+          "Schedule a free tyre health check every 6 months with Fix My Tyre",
         ]}
       />
       <WarningSigns />

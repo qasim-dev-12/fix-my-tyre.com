@@ -64,11 +64,11 @@ const tyreBrands: TyreBrand[] = [
     title: "Michelin Tyres",
     description: "Michelin tyres deliver long tread life and strong wet-grip performance trusted by drivers across the UAE.",
     intro:
-      "Looking for a reliable Michelin tyre replacement in Dubai? Michelin tyres are known for long tread life and dependable wet-weather grip, making them a popular choice for sedans, SUVs, and daily commuters across the UAE.\n\n800 Speedy delivers and fits genuine Michelin tyres at your home, office, or roadside location — fast, on-site, and backed by full warranty.",
+      "Looking for a reliable Michelin tyre replacement in Dubai? Michelin tyres are known for long tread life and dependable wet-weather grip, making them a popular choice for sedans, SUVs, and daily commuters across the UAE.\n\nFix My Tyre delivers and fits genuine Michelin tyres at your home, office, or roadside location — fast, on-site, and backed by full warranty.",
     stats,
     serviceHighlights,
     getStarted,
-    whyChooseUsTitle: "Why Choose 800 Speedy for Michelin Tyre Replacement?",
+    whyChooseUsTitle: "Why Choose Fix My Tyre for Michelin Tyre Replacement?",
     whyChooseUsIntro: "Here's why drivers across Dubai trust us for genuine Michelin tyre fitment:",
     whyChooseUs: [
       "100% genuine Michelin tyres with full manufacturer warranty",
@@ -88,7 +88,7 @@ const tyreBrands: TyreBrand[] = [
     faqs: [
       { q: "Are your Michelin tyres genuine?", a: "Yes, 100% genuine Michelin tyres with full manufacturer warranty." },
       { q: "How long does fitting take?", a: "Most replacements take under 20 minutes once the technician arrives." },
-      { q: "Do you offer warranty on Michelin tyres?", a: "Yes, every new tyre comes with a 2-month warranty from 800 Speedy." },
+      { q: "Do you offer warranty on Michelin tyres?", a: "Yes, every new tyre comes with a 2-month warranty from Fix My Tyre." },
       { q: "Can you fit a Michelin tyre for any car model?", a: "Yes, we stock sizes for sedans, SUVs, and most popular models in the UAE." },
       { q: "Do you offer doorstep delivery for Michelin tyres?", a: "Yes, we deliver and fit at your home, office, or roadside location, 24/7." },
       { q: "What happens to my old tyre?", a: "We collect and dispose of it according to UAE environmental standards, free of charge." },
@@ -101,11 +101,11 @@ const tyreBrands: TyreBrand[] = [
     title: "Bridgestone Tyres",
     description: "Bridgestone tyres combine Japanese engineering with durable compounds for reliable rides in any weather.",
     intro:
-      "Need a Bridgestone tyre replacement in Dubai? Bridgestone tyres are engineered for durability and dependable handling, even in extreme heat — a top choice for both everyday cars and SUVs.\n\n800 Speedy fits genuine Bridgestone tyres at your location across Dubai, with free checks and same-day service.",
+      "Need a Bridgestone tyre replacement in Dubai? Bridgestone tyres are engineered for durability and dependable handling, even in extreme heat — a top choice for both everyday cars and SUVs.\n\nFix My Tyre fits genuine Bridgestone tyres at your location across Dubai, with free checks and same-day service.",
     stats,
     serviceHighlights,
     getStarted,
-    whyChooseUsTitle: "Why Choose 800 Speedy for Bridgestone Tyre Replacement?",
+    whyChooseUsTitle: "Why Choose Fix My Tyre for Bridgestone Tyre Replacement?",
     whyChooseUsIntro: "Here's what sets our Bridgestone tyre service apart:",
     whyChooseUs: [
       "Genuine Bridgestone tyres with full manufacturer warranty",
@@ -115,17 +115,17 @@ const tyreBrands: TyreBrand[] = [
       "30-45 minute average response time across Dubai",
       "Transparent pricing with no hidden charges",
     ],
-    whyChooseUsClosing: "Japanese engineering, fitted at your doorstep — that's the 800 Speedy promise.",
+    whyChooseUsClosing: "Japanese engineering, fitted at your doorstep — that's the Fix My Tyre promise.",
     signs,
     testimonials: [
       { name: "Daniel", area: "Dubai Marina", quote: "Bridgestone tyre fitted within the hour. Technician was knowledgeable and the price was upfront with no surprises." },
       { name: "Aisha", area: "Mirdif", quote: "Reliable service — my car handles perfectly even in summer heat now." },
-      { name: "Imran", area: "Al Warqa", quote: "Called 800 Speedy after a puncture. Bridgestone tyre fitted in 35 minutes, no issues since." },
+      { name: "Imran", area: "Al Warqa", quote: "Called Fix My Tyre after a puncture. Bridgestone tyre fitted in 35 minutes, no issues since." },
     ],
     faqs: [
       { q: "Are your Bridgestone tyres genuine?", a: "Yes, 100% genuine Bridgestone tyres with full manufacturer warranty." },
       { q: "Why choose Bridgestone over other brands?", a: "Bridgestone tyres offer durable compounds and reliable performance in extreme heat." },
-      { q: "Do you offer warranty on Bridgestone tyres?", a: "Yes, every new tyre comes with a 2-month warranty from 800 Speedy." },
+      { q: "Do you offer warranty on Bridgestone tyres?", a: "Yes, every new tyre comes with a 2-month warranty from Fix My Tyre." },
       { q: "Can you fit a Bridgestone tyre for luxury cars?", a: "Yes, we stock sizes for sedans, SUVs, and most luxury models." },
       { q: "Do you deliver Bridgestone tyres to my home or office?", a: "Yes, we deliver and fit at your location, 24/7, anywhere in Dubai." },
       { q: "What happens to my old tyre?", a: "We collect and dispose of it free of charge per UAE environmental standards." },
@@ -138,11 +138,11 @@ const tyreBrands: TyreBrand[] = [
     title: "Continental Tyres",
     description: "Continental tyres offer premium handling and braking performance for vehicles with high road demands.",
     intro:
-      "Need a Continental tyre replacement in Dubai? Continental tyres use premium compounds built for precise handling and short braking distances — including for performance vehicles and SUVs.\n\n800 Speedy delivers and fits genuine Continental tyres at your location, 24/7, with free checks before every replacement.",
+      "Need a Continental tyre replacement in Dubai? Continental tyres use premium compounds built for precise handling and short braking distances — including for performance vehicles and SUVs.\n\nFix My Tyre delivers and fits genuine Continental tyres at your location, 24/7, with free checks before every replacement.",
     stats,
     serviceHighlights,
     getStarted,
-    whyChooseUsTitle: "Why Choose 800 Speedy for Continental Tyre Replacement?",
+    whyChooseUsTitle: "Why Choose Fix My Tyre for Continental Tyre Replacement?",
     whyChooseUsIntro: "Here's why Continental owners across Dubai choose us:",
     whyChooseUs: [
       "Genuine Continental tyres with full warranty",
@@ -155,14 +155,14 @@ const tyreBrands: TyreBrand[] = [
     whyChooseUsClosing: "Premium handling, fitted properly — so your ride stays safe and smooth.",
     signs,
     testimonials: [
-      { name: "Hamad", area: "Business Bay", quote: "My car's handling felt off. 800 Speedy diagnosed it as worn tyres and fitted genuine Continentals on the spot." },
+      { name: "Hamad", area: "Business Bay", quote: "My car's handling felt off. Fix My Tyre diagnosed it as worn tyres and fitted genuine Continentals on the spot." },
       { name: "Lina", area: "Downtown Dubai", quote: "Professional service, genuine Continental tyres, and the technician explained everything clearly." },
-      { name: "Khalifa", area: "Dubai Hills", quote: "My SUV needed premium tyres — Continental was the right call and 800 Speedy fitted it same day." },
+      { name: "Khalifa", area: "Dubai Hills", quote: "My SUV needed premium tyres — Continental was the right call and Fix My Tyre fitted it same day." },
     ],
     faqs: [
       { q: "Are your Continental tyres genuine?", a: "Yes, 100% genuine Continental tyres with full warranty." },
       { q: "Is Continental suitable for performance vehicles?", a: "Yes, Continental tyres are designed for precise handling and high road demands." },
-      { q: "Do you offer warranty on Continental tyres?", a: "Yes, every new tyre comes with a 2-month warranty from 800 Speedy." },
+      { q: "Do you offer warranty on Continental tyres?", a: "Yes, every new tyre comes with a 2-month warranty from Fix My Tyre." },
       { q: "Can you fit a Continental tyre for any car model?", a: "Yes, including performance and SUV models." },
       { q: "Do you deliver Continental tyres to my home or office?", a: "Yes, we deliver and fit at your location, 24/7, anywhere in Dubai." },
       { q: "What happens to my old tyre?", a: "We collect and dispose of it free of charge per UAE environmental standards." },
@@ -175,11 +175,11 @@ const tyreBrands: TyreBrand[] = [
     title: "Goodyear Tyres",
     description: "Goodyear tyres provide dependable everyday performance at a competitive price point.",
     intro:
-      "Need a Goodyear tyre replacement in Dubai? Goodyear tyres offer dependable everyday performance at a competitive price — a smart choice for drivers who want reliability without overspending.\n\n800 Speedy delivers and fits genuine Goodyear tyres at your location, 24/7, with free checks before every replacement.",
+      "Need a Goodyear tyre replacement in Dubai? Goodyear tyres offer dependable everyday performance at a competitive price — a smart choice for drivers who want reliability without overspending.\n\nFix My Tyre delivers and fits genuine Goodyear tyres at your location, 24/7, with free checks before every replacement.",
     stats,
     serviceHighlights,
     getStarted,
-    whyChooseUsTitle: "Why Choose 800 Speedy for Goodyear Tyre Replacement?",
+    whyChooseUsTitle: "Why Choose Fix My Tyre for Goodyear Tyre Replacement?",
     whyChooseUsIntro: "Here's why budget-conscious drivers across Dubai choose us:",
     whyChooseUs: [
       "Genuine Goodyear tyres with full manufacturer warranty",
@@ -199,7 +199,7 @@ const tyreBrands: TyreBrand[] = [
     faqs: [
       { q: "Are your Goodyear tyres genuine?", a: "Yes, 100% genuine Goodyear tyres with full manufacturer warranty." },
       { q: "Is Goodyear a budget option?", a: "Yes, Goodyear offers dependable performance at a more competitive price point." },
-      { q: "Do you offer warranty on Goodyear tyres?", a: "Yes, every new tyre comes with a 2-month warranty from 800 Speedy." },
+      { q: "Do you offer warranty on Goodyear tyres?", a: "Yes, every new tyre comes with a 2-month warranty from Fix My Tyre." },
       { q: "Can you fit a Goodyear tyre for any car model?", a: "Yes, we stock sizes for sedans, SUVs, and most popular models." },
       { q: "Do you deliver Goodyear tyres to my home or office?", a: "Yes, we deliver and fit at your location, 24/7, anywhere in Dubai." },
       { q: "What happens to my old tyre?", a: "We collect and dispose of it free of charge per UAE environmental standards." },
@@ -212,11 +212,11 @@ const tyreBrands: TyreBrand[] = [
     title: "Pirelli Tyres",
     description: "Pirelli tyres are built for sporty handling and consistent performance in extreme temperatures.",
     intro:
-      "Need a Pirelli tyre replacement in Dubai? Pirelli tyres are built for sporty handling and consistent performance in extreme temperatures — ideal for Dubai's harsh summer heat.\n\n800 Speedy delivers and fits genuine Pirelli tyres at your location, 24/7, with free checks before every replacement.",
+      "Need a Pirelli tyre replacement in Dubai? Pirelli tyres are built for sporty handling and consistent performance in extreme temperatures — ideal for Dubai's harsh summer heat.\n\nFix My Tyre delivers and fits genuine Pirelli tyres at your location, 24/7, with free checks before every replacement.",
     stats,
     serviceHighlights,
     getStarted,
-    whyChooseUsTitle: "Why Choose 800 Speedy for Pirelli Tyre Replacement?",
+    whyChooseUsTitle: "Why Choose Fix My Tyre for Pirelli Tyre Replacement?",
     whyChooseUsIntro: "Here's why drivers across Dubai trust us for Pirelli fitment:",
     whyChooseUs: [
       "Genuine Pirelli tyres with full manufacturer warranty",
@@ -236,7 +236,7 @@ const tyreBrands: TyreBrand[] = [
     faqs: [
       { q: "Are your Pirelli tyres genuine?", a: "Yes, 100% genuine Pirelli tyres with full manufacturer warranty." },
       { q: "Is Pirelli good for hot climates?", a: "Yes, it's built specifically for durability and performance in extreme temperatures." },
-      { q: "Do you offer warranty on Pirelli tyres?", a: "Yes, every new tyre comes with a 2-month warranty from 800 Speedy." },
+      { q: "Do you offer warranty on Pirelli tyres?", a: "Yes, every new tyre comes with a 2-month warranty from Fix My Tyre." },
       { q: "Can you fit a Pirelli tyre for any car model?", a: "Yes, we stock sizes for sedans, SUVs, and most popular models." },
       { q: "Do you deliver Pirelli tyres to my home or office?", a: "Yes, we deliver and fit at your location, 24/7, anywhere in Dubai." },
       { q: "What happens to my old tyre?", a: "We collect and dispose of it free of charge per UAE environmental standards." },
@@ -249,11 +249,11 @@ const tyreBrands: TyreBrand[] = [
     title: "Yokohama Tyres",
     description: "Yokohama tyres deliver reliable everyday grip backed by a full manufacturer warranty.",
     intro:
-      "Need a Yokohama tyre replacement in Dubai? Yokohama tyres deliver reliable everyday grip backed by a full manufacturer warranty — a solid everyday choice for UAE drivers.\n\n800 Speedy delivers and fits genuine Yokohama tyres at your location, 24/7, with free checks before every replacement.",
+      "Need a Yokohama tyre replacement in Dubai? Yokohama tyres deliver reliable everyday grip backed by a full manufacturer warranty — a solid everyday choice for UAE drivers.\n\nFix My Tyre delivers and fits genuine Yokohama tyres at your location, 24/7, with free checks before every replacement.",
     stats,
     serviceHighlights,
     getStarted,
-    whyChooseUsTitle: "Why Choose 800 Speedy for Yokohama Tyre Replacement?",
+    whyChooseUsTitle: "Why Choose Fix My Tyre for Yokohama Tyre Replacement?",
     whyChooseUsIntro: "Here's why drivers across Dubai trust us for Yokohama fitment:",
     whyChooseUs: [
       "Genuine Yokohama tyres with full manufacturer warranty",
@@ -272,7 +272,7 @@ const tyreBrands: TyreBrand[] = [
     ],
     faqs: [
       { q: "Are your Yokohama tyres genuine?", a: "Yes, 100% genuine Yokohama tyres with full manufacturer warranty." },
-      { q: "Do you offer warranty on Yokohama tyres?", a: "Yes, every new tyre comes with a 2-month warranty from 800 Speedy." },
+      { q: "Do you offer warranty on Yokohama tyres?", a: "Yes, every new tyre comes with a 2-month warranty from Fix My Tyre." },
       { q: "Can you fit a Yokohama tyre for any car model?", a: "Yes, we stock sizes for sedans, SUVs, and most popular models." },
       { q: "How fast is fitting?", a: "Most replacements take under 20 minutes once the technician arrives." },
       { q: "Do you deliver Yokohama tyres to my home or office?", a: "Yes, we deliver and fit at your location, 24/7, anywhere in Dubai." },
@@ -286,11 +286,11 @@ const tyreBrands: TyreBrand[] = [
     title: "Dunlop Tyres",
     description: "Dunlop tyres offer balanced handling and braking performance for everyday and sporty driving.",
     intro:
-      "Need a Dunlop tyre replacement in Dubai? Dunlop tyres are engineered for balanced handling and confident braking, suiting both daily commutes and sportier drives.\n\n800 Speedy delivers and fits genuine Dunlop tyres at your location, 24/7, with free checks before every replacement.",
+      "Need a Dunlop tyre replacement in Dubai? Dunlop tyres are engineered for balanced handling and confident braking, suiting both daily commutes and sportier drives.\n\nFix My Tyre delivers and fits genuine Dunlop tyres at your location, 24/7, with free checks before every replacement.",
     stats,
     serviceHighlights,
     getStarted,
-    whyChooseUsTitle: "Why Choose 800 Speedy for Dunlop Tyre Replacement?",
+    whyChooseUsTitle: "Why Choose Fix My Tyre for Dunlop Tyre Replacement?",
     whyChooseUsIntro: "Here's why drivers across Dubai trust us for Dunlop fitment:",
     whyChooseUs: [
       "Genuine Dunlop tyres with full manufacturer warranty",
@@ -309,7 +309,7 @@ const tyreBrands: TyreBrand[] = [
     ],
     faqs: [
       { q: "Are your Dunlop tyres genuine?", a: "Yes, 100% genuine Dunlop tyres with full manufacturer warranty." },
-      { q: "Do you offer warranty on Dunlop tyres?", a: "Yes, every new tyre comes with a 2-month warranty from 800 Speedy." },
+      { q: "Do you offer warranty on Dunlop tyres?", a: "Yes, every new tyre comes with a 2-month warranty from Fix My Tyre." },
       { q: "Can you fit a Dunlop tyre for any car model?", a: "Yes, we stock sizes for sedans, SUVs, and most popular models." },
       { q: "How fast is fitting?", a: "Most replacements take under 20 minutes once the technician arrives." },
       { q: "Do you deliver Dunlop tyres to my home or office?", a: "Yes, we deliver and fit at your location, 24/7, anywhere in Dubai." },
@@ -323,11 +323,11 @@ const tyreBrands: TyreBrand[] = [
     title: "Hankook Tyres",
     description: "Hankook tyres deliver quiet, comfortable rides with strong value for money across the UAE.",
     intro:
-      "Need a Hankook tyre replacement in Dubai? Hankook tyres are known for a quiet, comfortable ride and strong value, making them a popular pick for daily drivers.\n\n800 Speedy delivers and fits genuine Hankook tyres at your location, 24/7, with free checks before every replacement.",
+      "Need a Hankook tyre replacement in Dubai? Hankook tyres are known for a quiet, comfortable ride and strong value, making them a popular pick for daily drivers.\n\nFix My Tyre delivers and fits genuine Hankook tyres at your location, 24/7, with free checks before every replacement.",
     stats,
     serviceHighlights,
     getStarted,
-    whyChooseUsTitle: "Why Choose 800 Speedy for Hankook Tyre Replacement?",
+    whyChooseUsTitle: "Why Choose Fix My Tyre for Hankook Tyre Replacement?",
     whyChooseUsIntro: "Here's why drivers across Dubai trust us for Hankook fitment:",
     whyChooseUs: [
       "Genuine Hankook tyres with full manufacturer warranty",
@@ -346,7 +346,7 @@ const tyreBrands: TyreBrand[] = [
     ],
     faqs: [
       { q: "Are your Hankook tyres genuine?", a: "Yes, 100% genuine Hankook tyres with full manufacturer warranty." },
-      { q: "Do you offer warranty on Hankook tyres?", a: "Yes, every new tyre comes with a 2-month warranty from 800 Speedy." },
+      { q: "Do you offer warranty on Hankook tyres?", a: "Yes, every new tyre comes with a 2-month warranty from Fix My Tyre." },
       { q: "Can you fit a Hankook tyre for any car model?", a: "Yes, we stock sizes for sedans, SUVs, and most popular models." },
       { q: "How fast is fitting?", a: "Most replacements take under 20 minutes once the technician arrives." },
       { q: "Do you deliver Hankook tyres to my home or office?", a: "Yes, we deliver and fit at your location, 24/7, anywhere in Dubai." },
@@ -360,11 +360,11 @@ const tyreBrands: TyreBrand[] = [
     title: "Toyo Tires",
     description: "Toyo Tires provide durable tread compounds built to handle Dubai's heat and road conditions.",
     intro:
-      "Need a Toyo Tires replacement in Dubai? Toyo tyres use durable tread compounds built to handle UAE heat and road conditions without sacrificing grip.\n\n800 Speedy delivers and fits genuine Toyo Tires at your location, 24/7, with free checks before every replacement.",
+      "Need a Toyo Tires replacement in Dubai? Toyo tyres use durable tread compounds built to handle UAE heat and road conditions without sacrificing grip.\n\nFix My Tyre delivers and fits genuine Toyo Tires at your location, 24/7, with free checks before every replacement.",
     stats,
     serviceHighlights,
     getStarted,
-    whyChooseUsTitle: "Why Choose 800 Speedy for Toyo Tires Replacement?",
+    whyChooseUsTitle: "Why Choose Fix My Tyre for Toyo Tires Replacement?",
     whyChooseUsIntro: "Here's why drivers across Dubai trust us for Toyo fitment:",
     whyChooseUs: [
       "Genuine Toyo Tires with full manufacturer warranty",
@@ -383,7 +383,7 @@ const tyreBrands: TyreBrand[] = [
     ],
     faqs: [
       { q: "Are your Toyo Tires genuine?", a: "Yes, 100% genuine Toyo Tires with full manufacturer warranty." },
-      { q: "Do you offer warranty on Toyo Tires?", a: "Yes, every new tyre comes with a 2-month warranty from 800 Speedy." },
+      { q: "Do you offer warranty on Toyo Tires?", a: "Yes, every new tyre comes with a 2-month warranty from Fix My Tyre." },
       { q: "Can you fit a Toyo tyre for any car model?", a: "Yes, we stock sizes for sedans, SUVs, and most popular models." },
       { q: "How fast is fitting?", a: "Most replacements take under 20 minutes once the technician arrives." },
       { q: "Do you deliver Toyo Tires to my home or office?", a: "Yes, we deliver and fit at your location, 24/7, anywhere in Dubai." },
@@ -397,11 +397,11 @@ const tyreBrands: TyreBrand[] = [
     title: "Kumho Tyres",
     description: "Kumho tyres balance comfort and performance at a competitive price point.",
     intro:
-      "Need a Kumho tyre replacement in Dubai? Kumho tyres balance ride comfort and performance at a competitive price — a solid all-round choice for UAE drivers.\n\n800 Speedy delivers and fits genuine Kumho tyres at your location, 24/7, with free checks before every replacement.",
+      "Need a Kumho tyre replacement in Dubai? Kumho tyres balance ride comfort and performance at a competitive price — a solid all-round choice for UAE drivers.\n\nFix My Tyre delivers and fits genuine Kumho tyres at your location, 24/7, with free checks before every replacement.",
     stats,
     serviceHighlights,
     getStarted,
-    whyChooseUsTitle: "Why Choose 800 Speedy for Kumho Tyre Replacement?",
+    whyChooseUsTitle: "Why Choose Fix My Tyre for Kumho Tyre Replacement?",
     whyChooseUsIntro: "Here's why drivers across Dubai trust us for Kumho fitment:",
     whyChooseUs: [
       "Genuine Kumho tyres with full manufacturer warranty",
@@ -420,7 +420,7 @@ const tyreBrands: TyreBrand[] = [
     ],
     faqs: [
       { q: "Are your Kumho tyres genuine?", a: "Yes, 100% genuine Kumho tyres with full manufacturer warranty." },
-      { q: "Do you offer warranty on Kumho tyres?", a: "Yes, every new tyre comes with a 2-month warranty from 800 Speedy." },
+      { q: "Do you offer warranty on Kumho tyres?", a: "Yes, every new tyre comes with a 2-month warranty from Fix My Tyre." },
       { q: "Can you fit a Kumho tyre for any car model?", a: "Yes, we stock sizes for sedans, SUVs, and most popular models." },
       { q: "How fast is fitting?", a: "Most replacements take under 20 minutes once the technician arrives." },
       { q: "Do you deliver Kumho tyres to my home or office?", a: "Yes, we deliver and fit at your location, 24/7, anywhere in Dubai." },
@@ -434,11 +434,11 @@ const tyreBrands: TyreBrand[] = [
     title: "Nexen Tyres",
     description: "Nexen tyres offer dependable everyday performance backed by full manufacturer warranty.",
     intro:
-      "Need a Nexen tyre replacement in Dubai? Nexen tyres offer dependable everyday performance backed by full manufacturer warranty — a smart, budget-friendly choice.\n\n800 Speedy delivers and fits genuine Nexen tyres at your location, 24/7, with free checks before every replacement.",
+      "Need a Nexen tyre replacement in Dubai? Nexen tyres offer dependable everyday performance backed by full manufacturer warranty — a smart, budget-friendly choice.\n\nFix My Tyre delivers and fits genuine Nexen tyres at your location, 24/7, with free checks before every replacement.",
     stats,
     serviceHighlights,
     getStarted,
-    whyChooseUsTitle: "Why Choose 800 Speedy for Nexen Tyre Replacement?",
+    whyChooseUsTitle: "Why Choose Fix My Tyre for Nexen Tyre Replacement?",
     whyChooseUsIntro: "Here's why budget-conscious drivers across Dubai choose us:",
     whyChooseUs: [
       "Genuine Nexen tyres with full manufacturer warranty",
@@ -457,7 +457,7 @@ const tyreBrands: TyreBrand[] = [
     ],
     faqs: [
       { q: "Are your Nexen tyres genuine?", a: "Yes, 100% genuine Nexen tyres with full manufacturer warranty." },
-      { q: "Do you offer warranty on Nexen tyres?", a: "Yes, every new tyre comes with a 2-month warranty from 800 Speedy." },
+      { q: "Do you offer warranty on Nexen tyres?", a: "Yes, every new tyre comes with a 2-month warranty from Fix My Tyre." },
       { q: "Can you fit a Nexen tyre for any car model?", a: "Yes, we stock sizes for sedans, SUVs, and most popular models." },
       { q: "How fast is fitting?", a: "Most replacements take under 20 minutes once the technician arrives." },
       { q: "Do you deliver Nexen tyres to my home or office?", a: "Yes, we deliver and fit at your location, 24/7, anywhere in Dubai." },
@@ -471,11 +471,11 @@ const tyreBrands: TyreBrand[] = [
     title: "Falken Tyres",
     description: "Falken tyres are built for sporty, responsive handling at a mid-range price point.",
     intro:
-      "Need a Falken tyre replacement in Dubai? Falken tyres are built for sporty, responsive handling at a mid-range price — popular with drivers who want performance without a premium tag.\n\n800 Speedy delivers and fits genuine Falken tyres at your location, 24/7, with free checks before every replacement.",
+      "Need a Falken tyre replacement in Dubai? Falken tyres are built for sporty, responsive handling at a mid-range price — popular with drivers who want performance without a premium tag.\n\nFix My Tyre delivers and fits genuine Falken tyres at your location, 24/7, with free checks before every replacement.",
     stats,
     serviceHighlights,
     getStarted,
-    whyChooseUsTitle: "Why Choose 800 Speedy for Falken Tyre Replacement?",
+    whyChooseUsTitle: "Why Choose Fix My Tyre for Falken Tyre Replacement?",
     whyChooseUsIntro: "Here's why drivers across Dubai trust us for Falken fitment:",
     whyChooseUs: [
       "Genuine Falken tyres with full manufacturer warranty",
@@ -494,7 +494,7 @@ const tyreBrands: TyreBrand[] = [
     ],
     faqs: [
       { q: "Are your Falken tyres genuine?", a: "Yes, 100% genuine Falken tyres with full manufacturer warranty." },
-      { q: "Do you offer warranty on Falken tyres?", a: "Yes, every new tyre comes with a 2-month warranty from 800 Speedy." },
+      { q: "Do you offer warranty on Falken tyres?", a: "Yes, every new tyre comes with a 2-month warranty from Fix My Tyre." },
       { q: "Can you fit a Falken tyre for any car model?", a: "Yes, we stock sizes for sedans, SUVs, and most popular models." },
       { q: "How fast is fitting?", a: "Most replacements take under 20 minutes once the technician arrives." },
       { q: "Do you deliver Falken tyres to my home or office?", a: "Yes, we deliver and fit at your location, 24/7, anywhere in Dubai." },
@@ -508,11 +508,11 @@ const tyreBrands: TyreBrand[] = [
     title: "BFGoodrich Tyres",
     description: "BFGoodrich tyres are built tough for on- and off-road performance across the UAE.",
     intro:
-      "Need a BFGoodrich tyre replacement in Dubai? BFGoodrich tyres are built tough for both on-road comfort and off-road capability — a favourite for SUVs and 4x4s.\n\n800 Speedy delivers and fits genuine BFGoodrich tyres at your location, 24/7, with free checks before every replacement.",
+      "Need a BFGoodrich tyre replacement in Dubai? BFGoodrich tyres are built tough for both on-road comfort and off-road capability — a favourite for SUVs and 4x4s.\n\nFix My Tyre delivers and fits genuine BFGoodrich tyres at your location, 24/7, with free checks before every replacement.",
     stats,
     serviceHighlights,
     getStarted,
-    whyChooseUsTitle: "Why Choose 800 Speedy for BFGoodrich Tyre Replacement?",
+    whyChooseUsTitle: "Why Choose Fix My Tyre for BFGoodrich Tyre Replacement?",
     whyChooseUsIntro: "Here's why SUV and 4x4 owners across Dubai choose us:",
     whyChooseUs: [
       "Genuine BFGoodrich tyres with full manufacturer warranty",
@@ -532,7 +532,7 @@ const tyreBrands: TyreBrand[] = [
     faqs: [
       { q: "Are your BFGoodrich tyres genuine?", a: "Yes, 100% genuine BFGoodrich tyres with full manufacturer warranty." },
       { q: "Are BFGoodrich tyres good off-road?", a: "Yes, they're built for both on-road comfort and off-road capability." },
-      { q: "Do you offer warranty on BFGoodrich tyres?", a: "Yes, every new tyre comes with a 2-month warranty from 800 Speedy." },
+      { q: "Do you offer warranty on BFGoodrich tyres?", a: "Yes, every new tyre comes with a 2-month warranty from Fix My Tyre." },
       { q: "Can you fit a BFGoodrich tyre for any car model?", a: "Yes, especially SUVs and 4x4s." },
       { q: "Do you deliver BFGoodrich tyres to my home or office?", a: "Yes, we deliver and fit at your location, 24/7, anywhere in Dubai." },
       { q: "What happens to my old tyre?", a: "We collect and dispose of it free of charge per UAE environmental standards." },
@@ -545,11 +545,11 @@ const tyreBrands: TyreBrand[] = [
     title: "Maxxis Tyres",
     description: "Maxxis tyres deliver reliable performance and value for daily drivers across the UAE.",
     intro:
-      "Need a Maxxis tyre replacement in Dubai? Maxxis tyres deliver reliable everyday performance and strong value, popular with daily commuters across the UAE.\n\n800 Speedy delivers and fits genuine Maxxis tyres at your location, 24/7, with free checks before every replacement.",
+      "Need a Maxxis tyre replacement in Dubai? Maxxis tyres deliver reliable everyday performance and strong value, popular with daily commuters across the UAE.\n\nFix My Tyre delivers and fits genuine Maxxis tyres at your location, 24/7, with free checks before every replacement.",
     stats,
     serviceHighlights,
     getStarted,
-    whyChooseUsTitle: "Why Choose 800 Speedy for Maxxis Tyre Replacement?",
+    whyChooseUsTitle: "Why Choose Fix My Tyre for Maxxis Tyre Replacement?",
     whyChooseUsIntro: "Here's why drivers across Dubai trust us for Maxxis fitment:",
     whyChooseUs: [
       "Genuine Maxxis tyres with full manufacturer warranty",
@@ -568,7 +568,7 @@ const tyreBrands: TyreBrand[] = [
     ],
     faqs: [
       { q: "Are your Maxxis tyres genuine?", a: "Yes, 100% genuine Maxxis tyres with full manufacturer warranty." },
-      { q: "Do you offer warranty on Maxxis tyres?", a: "Yes, every new tyre comes with a 2-month warranty from 800 Speedy." },
+      { q: "Do you offer warranty on Maxxis tyres?", a: "Yes, every new tyre comes with a 2-month warranty from Fix My Tyre." },
       { q: "Can you fit a Maxxis tyre for any car model?", a: "Yes, we stock sizes for sedans, SUVs, and most popular models." },
       { q: "How fast is fitting?", a: "Most replacements take under 20 minutes once the technician arrives." },
       { q: "Do you deliver Maxxis tyres to my home or office?", a: "Yes, we deliver and fit at your location, 24/7, anywhere in Dubai." },
@@ -582,11 +582,11 @@ const tyreBrands: TyreBrand[] = [
     title: "Cooper Tires",
     description: "Cooper Tires combine comfort and durability, trusted by drivers across the UAE.",
     intro:
-      "Need a Cooper Tires replacement in Dubai? Cooper tyres combine ride comfort and durability, trusted by drivers who want a dependable everyday tyre.\n\n800 Speedy delivers and fits genuine Cooper Tires at your location, 24/7, with free checks before every replacement.",
+      "Need a Cooper Tires replacement in Dubai? Cooper tyres combine ride comfort and durability, trusted by drivers who want a dependable everyday tyre.\n\nFix My Tyre delivers and fits genuine Cooper Tires at your location, 24/7, with free checks before every replacement.",
     stats,
     serviceHighlights,
     getStarted,
-    whyChooseUsTitle: "Why Choose 800 Speedy for Cooper Tires Replacement?",
+    whyChooseUsTitle: "Why Choose Fix My Tyre for Cooper Tires Replacement?",
     whyChooseUsIntro: "Here's why drivers across Dubai trust us for Cooper fitment:",
     whyChooseUs: [
       "Genuine Cooper Tires with full manufacturer warranty",
@@ -605,7 +605,7 @@ const tyreBrands: TyreBrand[] = [
     ],
     faqs: [
       { q: "Are your Cooper Tires genuine?", a: "Yes, 100% genuine Cooper Tires with full manufacturer warranty." },
-      { q: "Do you offer warranty on Cooper Tires?", a: "Yes, every new tyre comes with a 2-month warranty from 800 Speedy." },
+      { q: "Do you offer warranty on Cooper Tires?", a: "Yes, every new tyre comes with a 2-month warranty from Fix My Tyre." },
       { q: "Can you fit a Cooper tyre for any car model?", a: "Yes, we stock sizes for sedans, SUVs, and most popular models." },
       { q: "How fast is fitting?", a: "Most replacements take under 20 minutes once the technician arrives." },
       { q: "Do you deliver Cooper Tires to my home or office?", a: "Yes, we deliver and fit at your location, 24/7, anywhere in Dubai." },

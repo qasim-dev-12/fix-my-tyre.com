@@ -40,7 +40,7 @@ const services: Service[] = [
     description:
       "On-site tyre replacement with a wide range of tyre brands and sizes, fitted at your location.",
     intro:
-      "Flat tyre change in Dubai, starting from AED 99, in just 30 minutes. We fit a new tyre or your spare at your location — home, work, or the roadside — no towing needed.\n\nOur mobile tyre fitment vans carry a wide range of brands and sizes, so whether you need a single tyre swapped or a full set replaced, 800 Speedy handles it on-site, 24/7.",
+      "Flat tyre change in Dubai, starting from AED 99, in just 30 minutes. We fit a new tyre or your spare at your location — home, work, or the roadside — no towing needed.\n\nOur mobile tyre fitment vans carry a wide range of brands and sizes, so whether you need a single tyre swapped or a full set replaced, Fix My Tyre handles it on-site, 24/7.",
     introSection: {
       title: "Mobile Tyre Replacement, Wherever You Are",
       paragraph:
@@ -88,7 +88,7 @@ const services: Service[] = [
         "Service backed by warranty on fitment and workmanship",
       ],
     },
-    whyChooseUsTitle: "Why Choose 800 Speedy?",
+    whyChooseUsTitle: "Why Choose Fix My Tyre?",
     whyChooseUsIntro: "Here's why drivers across Dubai trust us for tyre replacement:",
     whyChooseUs: [
       "24/7 availability — flat tyre at 2 AM? We're ready",
@@ -114,7 +114,7 @@ const services: Service[] = [
       "Citywide coverage across Dubai",
     ],
     steps: [
-      "Call 800 Speedy or book online",
+      "Call Fix My Tyre or book online",
       "Technician arrives within 30-45 minutes",
       "Tyre changed — drive away safely",
     ],
@@ -139,7 +139,7 @@ const services: Service[] = [
     introSection: {
       title: "Mobile Tyre Repair, Wherever You Are",
       paragraph:
-        "A nail, screw, or sharp debris can puncture a tyre anywhere — at home, at work, or mid-drive. 800 Speedy's mobile repair vans reach you in 30-45 minutes anywhere in Dubai, inspect the damage, and patch or plug the puncture so you're back on the road without needing a tow.",
+        "A nail, screw, or sharp debris can puncture a tyre anywhere — at home, at work, or mid-drive. Fix My Tyre's mobile repair vans reach you in 30-45 minutes anywhere in Dubai, inspect the damage, and patch or plug the puncture so you're back on the road without needing a tow.",
     },
     serviceHighlights: {
       title: "Our Complete Roadside & Car Service in Dubai",
@@ -183,7 +183,7 @@ const services: Service[] = [
         "Service backed by warranty on labour and parts",
       ],
     },
-    whyChooseUsTitle: "Why Choose 800 Speedy?",
+    whyChooseUsTitle: "Why Choose Fix My Tyre?",
     whyChooseUsIntro: "Here's why Dubai drivers trust us for tyre repair:",
     whyChooseUs: [
       "24/7 availability, including weekends and holidays",
@@ -232,7 +232,7 @@ const services: Service[] = [
     description:
       "Quick flat tyre replacement service that gets you back on the road safely with minimal downtime.",
     intro:
-      "Flat Tyre Change Service is an emergency roadside assistance service that assists in fitting a new tyre or patching a punctured tyre to your vehicle on the spot - at your home or work, or on the road. It provides quick, convenient, and professional assistance without periodically bringing your vehicle to the workshop on a tow truck.\n\nThe issue of a flat tyre can be devastating at the most inconvenient time, when you are going to work, regular family outing, or in the middle of a busy road. We realize how stressful and hazardous this situation may be at 800 Speedy Dubai. This is what drives us to provide a quick tyre replacement service throughout Dubai, so that you can feel safe and go on the road immediately.\n\nWhether tyre change in Dubai, flat tyre service, or professional mobile tyre fitting anywhere, any time, we still find the time and place to help you.",
+      "Flat Tyre Change Service is an emergency roadside assistance service that assists in fitting a new tyre or patching a punctured tyre to your vehicle on the spot - at your home or work, or on the road. It provides quick, convenient, and professional assistance without periodically bringing your vehicle to the workshop on a tow truck.\n\nThe issue of a flat tyre can be devastating at the most inconvenient time, when you are going to work, regular family outing, or in the middle of a busy road. We realize how stressful and hazardous this situation may be at Fix My Tyre Dubai. This is what drives us to provide a quick tyre replacement service throughout Dubai, so that you can feel safe and go on the road immediately.\n\nWhether tyre change in Dubai, flat tyre service, or professional mobile tyre fitting anywhere, any time, we still find the time and place to help you.",
     introSection: {
       title: "What Is Our Flat Tyre Change Service?",
       paragraph:
@@ -244,8 +244,8 @@ const services: Service[] = [
       causes: ["Tyre mounting and balancing machines", "Air compressors", "Torque wrenches", "Spare tyres and branded replacements", "Puncture repair kits", "Tyre inflators"],
       closing: "This mobile setup allows us to handle most tyre issues on-site—be it at home, office, roadside, parking garage, or desert track.",
     },
-    whyChooseUsTitle: "Why Choose 800 Speedy's Tyre Change Service?",
-    whyChooseUsIntro: "When it comes to mobile tyre services, not all companies are created equal. Here's why 800 Speedy stands out as your trusted tyre change partner in Dubai:",
+    whyChooseUsTitle: "Why Choose Fix My Tyre's Tyre Change Service?",
+    whyChooseUsIntro: "When it comes to mobile tyre services, not all companies are created equal. Here's why Fix My Tyre stands out as your trusted tyre change partner in Dubai:",
     whyChooseUs: [
       "24/7 Availability – Flat tyre at 2 AM? We're ready.",
       "Mobile Tyre Fitment Vans – We come equipped to handle all types of tyre changes on the spot.",
@@ -256,7 +256,7 @@ const services: Service[] = [
     ],
     getStarted: {
       title: "How Our Tyre Change Service in Dubai Works",
-      intro: "Here's how simple it is to get your tyre changed with 800 Speedy:",
+      intro: "Here's how simple it is to get your tyre changed with Fix My Tyre:",
       steps: [
         { title: "Call or Book Online", text: "Reach out to us with your location and vehicle details." },
         { title: "We Dispatch Immediately", text: "Our mobile tyre van will arrive within 30-45 minutes." },
@@ -279,11 +279,11 @@ const services: Service[] = [
       title: "Why Flat Tyre Service Matters in Dubai",
       intro: "Driving with a flat or underinflated tyre is risky and can damage your wheel or suspension. Quick tyre change ensures:",
       list: ["Safety for you and others", "Better fuel efficiency", "Extended tyre lifespan", "Smooth ride comfort", "Peace of mind"],
-      safetyNote: "In a Hurry to have Flat Tyre Services in Dubai? A flat tyre should not be a hitch. Depending on where you are, such as at home, on the highway, or even in the parking lot, 800 Speedy Dubai can conveniently bring the service of a seasoned tyre changer to meet you wherever you are. Call us now or fill out our quick service form to get help within minutes.",
+      safetyNote: "In a Hurry to have Flat Tyre Services in Dubai? A flat tyre should not be a hitch. Depending on where you are, such as at home, on the highway, or even in the parking lot, Fix My Tyre Dubai can conveniently bring the service of a seasoned tyre changer to meet you wherever you are. Call us now or fill out our quick service form to get help within minutes.",
     },
     beyondJumpstart: {
       title: "Roadside Assistance For Flat Tyres – Always Ready",
-      intro: "At 800 Speedy, we don't just change tyres—we offer full roadside assistance in Dubai. No need to wait hours or get stuck in the heat—our team responds fast and gets the job done right.",
+      intro: "At Fix My Tyre, we don't just change tyres—we offer full roadside assistance in Dubai. No need to wait hours or get stuck in the heat—our team responds fast and gets the job done right.",
       services: ["Flat Tyre Replacement", "Puncture Repair", "Jumpstart Services", "Battery Replacement", "Towing Services", "Fuel Delivery"],
     },
     features: [
@@ -295,7 +295,7 @@ const services: Service[] = [
       "Citywide coverage, 24/7",
     ],
     steps: [
-      "Call 800 Speedy or book online",
+      "Call Fix My Tyre or book online",
       "Technician arrives within 30-45 minutes",
       "Tyre changed — drive away safely",
     ],
@@ -310,7 +310,7 @@ const services: Service[] = [
     ],
     pricingNote: "On average, tyre change services start from AED 99, and can go higher depending on tyre replacement requirements.",
     faqs: [
-      { q: "What can I do when I have a flat tyre in Dubai?", a: "Call or book 800 Speedy online and our mobile team will reach your location to fit a new tyre or your spare on the spot." },
+      { q: "What can I do when I have a flat tyre in Dubai?", a: "Call or book Fix My Tyre online and our mobile team will reach your location to fit a new tyre or your spare on the spot." },
       { q: "What is the response time of your mobile team?", a: "Typically 30-45 minutes anywhere in Dubai, 24/7." },
       { q: "Do you offer tyre changing services at night or on weekends?", a: "Yes, we're available 24/7 including nights, weekends, and public holidays." },
       { q: "Do you repair any kind of tyres and vehicles?", a: "We handle sedans, SUVs, 4x4s, and commercial vehicles, with both standard and run-flat tyres." },
@@ -324,15 +324,15 @@ const services: Service[] = [
   {
     slug: "flat-tyre-repair",
     heroImage: "/tyres/repair-tyre.png",
-    title: "Flat Tyre Repair Dubai – 800 Speedy Comes to You 24/7",
+    title: "Flat Tyre Repair Dubai – Fix My Tyre Comes to You 24/7",
     description:
       "On-the-spot flat tyre patching and repair so you can avoid a costly replacement when possible.",
     intro:
-      "Flat tyre repair in Dubai — we come to you, 24/7. Expert technicians arrive quickly to fix tyres on-site so you can resume your journey without delays or towing.\n\nWith over 10 years of experience, 800 Speedy repairs punctures, patches damaged tyres, and gets you safely back on the road wherever you are in Dubai.",
+      "Flat tyre repair in Dubai — we come to you, 24/7. Expert technicians arrive quickly to fix tyres on-site so you can resume your journey without delays or towing.\n\nWith over 10 years of experience, Fix My Tyre repairs punctures, patches damaged tyres, and gets you safely back on the road wherever you are in Dubai.",
     introSection: {
       title: "24/7 Tyre Repair Service in Dubai",
       paragraph:
-        "A flat tyre rarely happens at a convenient time. 800 Speedy's mobile tyre repair vans reach you at home, work, or the roadside — inspecting the damage, patching or plugging the puncture, and checking pressure and balance before you drive off, day or night.",
+        "A flat tyre rarely happens at a convenient time. Fix My Tyre's mobile tyre repair vans reach you at home, work, or the roadside — inspecting the damage, patching or plugging the puncture, and checking pressure and balance before you drive off, day or night.",
     },
     serviceHighlights: {
       title: "Our Complete Roadside & Car Service in Dubai",
@@ -376,8 +376,8 @@ const services: Service[] = [
         "Service backed by warranty on labour and parts",
       ],
     },
-    whyChooseUsTitle: "Why Choose 800 Speedy?",
-    whyChooseUsIntro: "Thousands of Dubai drivers trust 800 Speedy for fast, reliable tyre repair:",
+    whyChooseUsTitle: "Why Choose Fix My Tyre?",
+    whyChooseUsIntro: "Thousands of Dubai drivers trust Fix My Tyre for fast, reliable tyre repair:",
     whyChooseUs: [
       "24/7 availability, year-round including holidays",
       "Quick response — mobile repair vans typically arrive within 30 minutes",
@@ -421,18 +421,18 @@ const services: Service[] = [
   {
     slug: "roadside-assistance",
     heroImage: "/images/about/road-side-assist.png",
-    title: "Stuck on the Road? Call 800 Speedy for 24/7 Roadside Help in Dubai",
+    title: "Stuck on the Road? Call Fix My Tyre for 24/7 Roadside Help in Dubai",
     description:
       "24/7 roadside assistance covering breakdowns, lockouts, and minor repairs wherever you are.",
     intro:
-      "Roadside emergencies are stressful; no one wants a flat tire, a dead battery, or to run out of fuel. This is where 800 Speedy Dubai roadside rescue saves your day. You can reach us 24/7, and we are fully equipped and one call away from getting you back on the road safe and fast.\n\nAll our technicians are trained to deal with car breakdowns, jumpstarts, flat tire changes, fuel delivery, and others with an excellent response time and reasonable prices.",
+      "Roadside emergencies are stressful; no one wants a flat tire, a dead battery, or to run out of fuel. This is where Fix My Tyre Dubai roadside rescue saves your day. You can reach us 24/7, and we are fully equipped and one call away from getting you back on the road safe and fast.\n\nAll our technicians are trained to deal with car breakdowns, jumpstarts, flat tire changes, fuel delivery, and others with an excellent response time and reasonable prices.",
     introSection: {
       title: "Who Are We?",
       paragraph:
-        "800 Speedy is a reliable company to replace a car battery and provide roadside assistance in Dubai. Built on over a decade of experience, we have assisted thousands of drivers who have been stranded on the road and put them back on route safely.\n\nWe provide top-notch services with unrivaled reliability in the areas of Dubai and beyond. We begin to assist when your car comes to a standstill.",
+        "Fix My Tyre is a reliable company to replace a car battery and provide roadside assistance in Dubai. Built on over a decade of experience, we have assisted thousands of drivers who have been stranded on the road and put them back on route safely.\n\nWe provide top-notch services with unrivaled reliability in the areas of Dubai and beyond. We begin to assist when your car comes to a standstill.",
     },
-    whyChooseUsTitle: "Why Choose 800 Speedy Roadside Assistance?",
-    whyChooseUsIntro: "We're not just another car support company. 800 Speedy stands out because we put drivers first.",
+    whyChooseUsTitle: "Why Choose Fix My Tyre Roadside Assistance?",
+    whyChooseUsIntro: "We're not just another car support company. Fix My Tyre stands out because we put drivers first.",
     whyChooseUs: [
       "Quick Response Time – Our arrival is within 30 minutes or less, long wait and delays.",
       "Low, Transparent Pricing – No need to worry about the hidden charges. All services have upfront pricing.",
@@ -452,7 +452,7 @@ const services: Service[] = [
     },
     vehicleTypes: {
       title: "Comprehensive Roadside Services — All in One Place",
-      intro: "800 Speedy isn't limited to just one type of help. We deliver a complete roadside solution, including:",
+      intro: "Fix My Tyre isn't limited to just one type of help. We deliver a complete roadside solution, including:",
       list: [
         "Jumpstart Service – Battery dead? Get a quick boost at your spot.",
         "Car Battery Replacement – Get a new premium battery installed instantly.",
@@ -469,7 +469,7 @@ const services: Service[] = [
     },
     whoNeedsIt: {
       title: "Why Roadside Assistance Is Essential In Dubai",
-      intro: "Dubai roads can be unpredictable. Extreme heat, traffic delays, or even simple wear and tear can cause unexpected issues. Here's why having a roadside service provider like 800 Speedy matters:",
+      intro: "Dubai roads can be unpredictable. Extreme heat, traffic delays, or even simple wear and tear can cause unexpected issues. Here's why having a roadside service provider like Fix My Tyre matters:",
       list: ["Long drives or road trips", "Heat-related car breakdowns", "Running out of fuel in remote areas", "Unexpected tire bursts"],
     },
     getStarted: {
@@ -487,13 +487,13 @@ const services: Service[] = [
       services: ["Diagnose the problem on arrival", "Repair, replace, or assist as needed", "Ensure your car is ready to drive", "Or tow it to a garage if necessary"],
     },
     whyPartner: {
-      title: "Don't Wait on the Road — Call 800 Speedy Now",
+      title: "Don't Wait on the Road — Call Fix My Tyre Now",
       intro: "We're always ready to help—anytime, anywhere in Dubai.",
       points: ["Call us now for instant roadside help", "Or book a service online in seconds", "We'll reach you in 30 minutes or less"],
     },
     testimonials: [
-      { name: "Ahmad", area: "Downtown", quote: "800 Speedy helped me within 25 minutes. My tire blew on Sheikh Zayed Road and I was panicking. They arrived fast and handled it professionally." },
-      { name: "Fatima", area: "Al Nahda", quote: "I ran out of fuel late at night. 800 Speedy came with petrol in 20 minutes. Super fast and affordable!" },
+      { name: "Ahmad", area: "Downtown", quote: "Fix My Tyre helped me within 25 minutes. My tire blew on Sheikh Zayed Road and I was panicking. They arrived fast and handled it professionally." },
+      { name: "Fatima", area: "Al Nahda", quote: "I ran out of fuel late at night. Fix My Tyre came with petrol in 20 minutes. Super fast and affordable!" },
       { name: "Hassan", area: "Downtown Dubai", quote: "They replaced my dead car battery on the spot. No extra charges and the technician was very polite." },
     ],
     showBrands: true,
@@ -526,11 +526,11 @@ const services: Service[] = [
     description:
       "Professional car towing and recovery for accidents, breakdowns, or vehicles stuck off-road.",
     intro:
-      "800 Speedy UAE provides efficient and expert towing and roadside assistance services. Our committed team is available around the clock to ensure you receive hassle-free help whenever you need it.",
+      "Fix My Tyre UAE provides efficient and expert towing and roadside assistance services. Our committed team is available around the clock to ensure you receive hassle-free help whenever you need it.",
     introSection: {
-      title: "About 800 Speedy's Tow Truck Service in Dubai",
+      title: "About Fix My Tyre's Tow Truck Service in Dubai",
       paragraph:
-        "800 Speedy is the one-stop service provider of emergency tow truck Dubai and roadside assistance in the United Arab Emirates. We provide quick, smooth, and professional car towing services. Regardless of whether your battery is dead, your tyre is flat, or you have met with an accident, or are stuck somewhere. Our mobile services are ready 24/7. When you need support, we provide a reliable source.",
+        "Fix My Tyre is the one-stop service provider of emergency tow truck Dubai and roadside assistance in the United Arab Emirates. We provide quick, smooth, and professional car towing services. Regardless of whether your battery is dead, your tyre is flat, or you have met with an accident, or are stuck somewhere. Our mobile services are ready 24/7. When you need support, we provide a reliable source.",
     },
     whyChooseUsTitle: "Why Choose Our Tow Truck Dubai Service?",
     whyChooseUs: [
@@ -543,7 +543,7 @@ const services: Service[] = [
     serviceHighlights: {
       title: "Our Comprehensive Tow Truck Dubai Services",
       items: [
-        { icon: "truck", title: "Standard Tow Truck Services", description: "Our core service: professional towing either on flatbed or wheel-lift. Need towing services in Dubai, just because of a mechanical failure or a small disaster? Our tow truck Dubai units will provide safe transport to the location of your choice, be it a garage, your home, or the 800 Speedy workshop." },
+        { icon: "truck", title: "Standard Tow Truck Services", description: "Our core service: professional towing either on flatbed or wheel-lift. Need towing services in Dubai, just because of a mechanical failure or a small disaster? Our tow truck Dubai units will provide safe transport to the location of your choice, be it a garage, your home, or the Fix My Tyre workshop." },
         { icon: "clock", title: "Emergency Roadside Assistance", description: "We come to you, wherever you are in Dubai, for services like: flat tyre replacement, battery jumpstart or replacement, emergency fuel delivery, car lockout help, and pull out from sand, basements, or off-road spots." },
         { icon: "car", title: "Sports & Luxury Car Towing", description: "Driving a high-end vehicle? Our technicians and equipment are specially equipped to handle low-clearance or sensitive models carefully, keeping your vehicle scratch-free." },
         { icon: "location", title: "Sand & Desert Recovery", description: "Dubai's roads often include sandy areas and off-road paths. Our desert recovery trucks are specially prepared and certified to tow vehicles stuck in sand." },
@@ -575,7 +575,7 @@ const services: Service[] = [
     },
     whyPartner: {
       title: "Customer First: Quality & Trust",
-      intro: "Here's why drivers across Dubai keep calling 800 Speedy back:",
+      intro: "Here's why drivers across Dubai keep calling Fix My Tyre back:",
       points: [
         "100% Transparent Costing – You pay what we quote—no hidden charges.",
         "Satisfaction Guarantee – If you're unsatisfied with coverage, we'll return without additional charge.",
@@ -596,7 +596,7 @@ const services: Service[] = [
     },
     beyondJumpstart: {
       title: "Book a Tow Truck Dubai Service Today",
-      intro: "No more delays or unsafe handling services — just pick up the phone and call 800 Speedy Dubai for a fast, trusty tow truck across the city and beyond.",
+      intro: "No more delays or unsafe handling services — just pick up the phone and call Fix My Tyre Dubai for a fast, trusty tow truck across the city and beyond.",
       services: [
         "Affordable rates, reliable equipment, and good support, every time you call.",
         "Call or WhatsApp us and get help where and when you need it.",
@@ -646,11 +646,11 @@ const services: Service[] = [
   {
     slug: "car-recovery-dubai",
     heroImage: "/images/about/car-recovery.png",
-    title: "24/7 Car Recovery Services in Dubai in Less Than 45 Minutes with 800 Speedy",
+    title: "24/7 Car Recovery Services in Dubai in Less Than 45 Minutes with Fix My Tyre",
     description:
       "Dedicated car recovery service across Dubai for breakdowns, collisions, and stuck vehicles.",
     intro:
-      "You might want to have a reliable car recovery in Dubai, and that is where we, 800 Speedy Dubai, come in. We will help you with our available experts and capabilities on the road to provide the best assistance on how to get your car out of the jam. If you find your stuck in the middle of nowhere, or you are a victim of a flat tyre, or other road accidents, our team of experts is on the ground 24/7 to restore you to the driving seat, in less time to stay safe.\n\nWe are devoted to delivering immediate assistance, instructional assistance by stage on the phone, and recovery assistance wherever you reside. When you have the 800 Speedy by your side, you are assured of a calm repose with the knowledge that you can be readily assisted by an expert at any place in Dubai.",
+      "You might want to have a reliable car recovery in Dubai, and that is where we, Fix My Tyre Dubai, come in. We will help you with our available experts and capabilities on the road to provide the best assistance on how to get your car out of the jam. If you find your stuck in the middle of nowhere, or you are a victim of a flat tyre, or other road accidents, our team of experts is on the ground 24/7 to restore you to the driving seat, in less time to stay safe.\n\nWe are devoted to delivering immediate assistance, instructional assistance by stage on the phone, and recovery assistance wherever you reside. When you have the Fix My Tyre by your side, you are assured of a calm repose with the knowledge that you can be readily assisted by an expert at any place in Dubai.",
     whyEssential: {
       title: "Key Benefits of Our Car Recovery Service",
       intro: "",
@@ -662,8 +662,8 @@ const services: Service[] = [
         "Trusted by Many: Rated highly by Dubai drivers for reliability and professionalism.",
       ],
     },
-    whyChooseUsTitle: "Why Choose 800 Speedy for Car Recovery in Dubai?",
-    whyChooseUsIntro: "800 Speedy stands out with:",
+    whyChooseUsTitle: "Why Choose Fix My Tyre for Car Recovery in Dubai?",
+    whyChooseUsIntro: "Fix My Tyre stands out with:",
     whyChooseUs: [
       "Rapid Response (Typically < 45 minutes)",
       "Experienced, Certified Operators",
@@ -676,7 +676,7 @@ const services: Service[] = [
       title: "How Can We Assist You?",
       intro: "Our Car Recovery Dubai services are designed to handle all vehicle emergencies professionally and efficiently:",
       items: [
-        { icon: "truck", title: "Emergency Towing", description: "We tow your vehicle safely to your preferred location—home, workshop, or 800 Speedy center—using flatbed or wheel-lift trucks." },
+        { icon: "truck", title: "Emergency Towing", description: "We tow your vehicle safely to your preferred location—home, workshop, or Fix My Tyre center—using flatbed or wheel-lift trucks." },
         { icon: "wrench", title: "Roadside Support", description: "From flat tyres to jumpstarts and battery replacements, we help you on the spot whenever possible." },
         { icon: "car", title: "Breakdown Rescue", description: "If your car fails due to engine, alternator, or fuel issues, we offer comprehensive recovery and diagnostic assistance." },
         { icon: "building", title: "Recovery from Difficult Spots", description: "Stuck in sand or in narrow parking? Our recovery team extracts vehicles safely from basements, dunes, or tight spots." },
@@ -708,8 +708,8 @@ const services: Service[] = [
       ],
     },
     testimonials: [
-      { name: "Rehman", area: "Dubai Marina driver", quote: "My car battery kept draining. 800 Speedy tested the alternator and replaced the regulator on-site. My car is back to normal. Highly recommended!" },
-      { name: "Sarah", area: "Dubai Marina", quote: "800 Speedy came swiftly when my car overheated near Sheikh Zayed Road. Quick recovery and no damage. Highly recommend!" },
+      { name: "Rehman", area: "Dubai Marina driver", quote: "My car battery kept draining. Fix My Tyre tested the alternator and replaced the regulator on-site. My car is back to normal. Highly recommended!" },
+      { name: "Sarah", area: "Dubai Marina", quote: "Fix My Tyre came swiftly when my car overheated near Sheikh Zayed Road. Quick recovery and no damage. Highly recommend!" },
       { name: "Ahmed", area: "Business Bay", quote: "I was stuck downtown at night with a flat tyre. They handled everything in under 40 minutes. Excellent support." },
     ],
     showBrands: true,
@@ -744,7 +744,7 @@ const services: Service[] = [
     description:
       "Order brand-new tyres online and get them delivered and fitted at your location, starting from AED 79.",
     intro:
-      "Need a new tyre in Dubai? Order online or by phone and 800 Speedy delivers and fits your new tyre at your home, office, or roadside location — no workshop visit needed.\n\nWe stock a wide range of brands and sizes for sedans, SUVs, and commercial vehicles, with services starting from AED 79.",
+      "Need a new tyre in Dubai? Order online or by phone and Fix My Tyre delivers and fits your new tyre at your home, office, or roadside location — no workshop visit needed.\n\nWe stock a wide range of brands and sizes for sedans, SUVs, and commercial vehicles, with services starting from AED 79.",
     introSection: {
       title: "Order a New Tyre, We Bring It to You",
       paragraph:
@@ -760,7 +760,7 @@ const services: Service[] = [
         { title: "Pay & Drive Away", text: "Pay by card or pay by link, no cash needed." },
       ],
     },
-    whyChooseUsTitle: "Why Choose 800 Speedy?",
+    whyChooseUsTitle: "Why Choose Fix My Tyre?",
     whyChooseUsIntro: "Here's why drivers across Dubai buy their tyres from us:",
     whyChooseUs: [
       "Wide stock of tyre brands and sizes on every van",
@@ -785,7 +785,7 @@ const services: Service[] = [
       "Citywide coverage across Dubai, 24/7",
     ],
     steps: [
-      "Call 800 Speedy or book online with your tyre size",
+      "Call Fix My Tyre or book online with your tyre size",
       "Mobile fitting van dispatched to your location",
       "New tyre fitted, balanced, and pressure-checked",
     ],
@@ -806,7 +806,7 @@ const services: Service[] = [
     description:
       "Quick, accurate tyre air top-up and pressure check at your location, starting from AED 79.",
     intro:
-      "Low tyre pressure warning light on? 800 Speedy comes to you for a quick air fill and pressure check — at home, work, or the roadside, 24/7.\n\nCorrect tyre pressure improves fuel efficiency, handling, and tyre lifespan — our technicians top up and verify all four tyres in minutes.",
+      "Low tyre pressure warning light on? Fix My Tyre comes to you for a quick air fill and pressure check — at home, work, or the roadside, 24/7.\n\nCorrect tyre pressure improves fuel efficiency, handling, and tyre lifespan — our technicians top up and verify all four tyres in minutes.",
     introSection: {
       title: "Mobile Tyre Air Fill, Wherever You Are",
       paragraph:
@@ -821,7 +821,7 @@ const services: Service[] = [
         { title: "Pressure Checked & Filled", text: "All four tyres topped up to the correct pressure." },
       ],
     },
-    whyChooseUsTitle: "Why Choose 800 Speedy?",
+    whyChooseUsTitle: "Why Choose Fix My Tyre?",
     whyChooseUsIntro: "Here's why drivers across Dubai trust us for tyre air fills:",
     whyChooseUs: [
       "24/7 availability, including weekends and holidays",
@@ -841,7 +841,7 @@ const services: Service[] = [
       "Citywide coverage across Dubai",
     ],
     steps: [
-      "Call 800 Speedy or book online",
+      "Call Fix My Tyre or book online",
       "Technician arrives within 20-30 minutes",
       "All tyres checked and topped up to correct pressure",
     ],
@@ -861,7 +861,7 @@ const services: Service[] = [
     description:
       "Fast spare tyre fitting to get you safely back on the road, starting from AED 79.",
     intro:
-      "Flat tyre and need your spare fitted fast? 800 Speedy comes to you, 24/7, and swaps in your spare tyre on the spot — no towing needed.\n\nOur technicians safely jack your vehicle, fit the spare, and check pressure before you drive off.",
+      "Flat tyre and need your spare fitted fast? Fix My Tyre comes to you, 24/7, and swaps in your spare tyre on the spot — no towing needed.\n\nOur technicians safely jack your vehicle, fit the spare, and check pressure before you drive off.",
     introSection: {
       title: "Mobile Spare Tyre Fitting, Wherever You Are",
       paragraph:
@@ -877,7 +877,7 @@ const services: Service[] = [
         { title: "Drive Away Safely", text: "You're back on the road, no towing required." },
       ],
     },
-    whyChooseUsTitle: "Why Choose 800 Speedy?",
+    whyChooseUsTitle: "Why Choose Fix My Tyre?",
     whyChooseUsIntro: "Here's why drivers across Dubai trust us for spare tyre changes:",
     whyChooseUs: [
       "24/7 availability — flat tyre at 2 AM? We're ready",
@@ -897,7 +897,7 @@ const services: Service[] = [
       "Citywide coverage across Dubai",
     ],
     steps: [
-      "Call 800 Speedy or book online",
+      "Call Fix My Tyre or book online",
       "Technician arrives within 20-30 minutes",
       "Spare tyre fitted and pressure-checked",
     ],
@@ -917,7 +917,7 @@ const services: Service[] = [
     description:
       "Quick puncture repair to get you safely back on the road without a full replacement, starting from AED 79.",
     intro:
-      "Got a puncture in Dubai? 800 Speedy comes to you, 24/7, and plugs or patches most punctures on the spot — saving you the cost of a full tyre replacement.\n\nOur technicians inspect the damage first and give honest advice on whether a repair or replacement is the safer option.",
+      "Got a puncture in Dubai? Fix My Tyre comes to you, 24/7, and plugs or patches most punctures on the spot — saving you the cost of a full tyre replacement.\n\nOur technicians inspect the damage first and give honest advice on whether a repair or replacement is the safer option.",
     introSection: {
       title: "Mobile Puncture Repair, Wherever You Are",
       paragraph:
@@ -933,7 +933,7 @@ const services: Service[] = [
         { title: "Final Safety Check", text: "We confirm the repair is roadworthy before you drive off." },
       ],
     },
-    whyChooseUsTitle: "Why Choose 800 Speedy?",
+    whyChooseUsTitle: "Why Choose Fix My Tyre?",
     whyChooseUsIntro: "Here's why Dubai drivers trust us for puncture repair:",
     whyChooseUs: [
       "24/7 availability, including weekends and holidays",
@@ -953,7 +953,7 @@ const services: Service[] = [
       "Citywide coverage across Dubai",
     ],
     steps: [
-      "Call 800 Speedy or book online — share your location and issue",
+      "Call Fix My Tyre or book online — share your location and issue",
       "Technician dispatched to your area",
       "Inspect tyre, locate the puncture, repair or patch it",
       "Reinflate and verify tyre pressure",

@@ -9,7 +9,7 @@ const BrandsShowcase = () => {
       <div className="container">
         <SectionTitle
           title="Genuine Tyres, Fitted Wherever You Are in Dubai"
-          paragraph="800 Speedy is a mobile tyre shop that brings certified, authentic tyres from the world's top brands straight to you. Every tyre we fit comes backed by a full manufacturer warranty and expert doorstep installation."
+          paragraph="Fix My Tyre is a mobile tyre shop that brings certified, authentic tyres from the world's top brands straight to you. Every tyre we fit comes backed by a full manufacturer warranty and expert doorstep installation."
           center
         />
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
@@ -38,7 +38,7 @@ const BrandsShowcase = () => {
           ))}
         </div>
         <p className="mt-8 text-center text-sm text-body-color">
-          All tyres provided by 800 Speedy come with full manufacturer
+          All tyres provided by Fix My Tyre come with full manufacturer
           warranty and free doorstep fitting.{" "}
           <Link href="/warranty" className="text-primary">
             Terms and conditions apply.

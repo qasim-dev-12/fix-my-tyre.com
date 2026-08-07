@@ -14,7 +14,7 @@ const AreasCovered = () => {
       <div className="container">
         <SectionTitle
           title="Areas We Serve Across Dubai"
-          paragraph="No matter where you are in the city, 800 Speedy is ready to reach you."
+          paragraph="No matter where you are in the city, Fix My Tyre is ready to reach you."
           center
         />
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
@@ -27,7 +27,7 @@ const AreasCovered = () => {
               <div className="relative h-40 w-full">
                 <Image
                   src={`/images/areas/dubai-${(index % AREA_PHOTOS) + 1}.jpg`}
-                  alt={`800 Speedy tyre service in ${area}, Dubai`}
+                  alt={`Fix My Tyre tyre service in ${area}, Dubai`}
                   fill
                   className="object-cover"
                 />

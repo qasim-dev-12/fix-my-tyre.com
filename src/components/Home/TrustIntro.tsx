@@ -14,7 +14,7 @@ const TrustIntro = () => {
             <div className="relative aspect-[4/3] w-full overflow-hidden rounded-3xl ring-1 ring-primary/20">
               <Image
                 src="/images/about/technician-tyre-fitting.png"
-                alt="800 Speedy technician fitting a tyre on-site in Dubai at night"
+                alt="Fix My Tyre technician fitting a tyre on-site in Dubai at night"
                 fill
                 className="object-cover"
               />
@@ -40,8 +40,8 @@ const TrustIntro = () => {
             </h2>
             <p className="mx-auto mb-8 max-w-2xl text-base leading-relaxed text-body-color-dark md:mx-0">
               Whether you need an emergency tyre repair in Dubai at 3 AM or
-              want to order a new tyre online with same-day fitting, 800
-              Speedy delivers a seamless experience across the UAE. Trusted
+              want to order a new tyre online with same-day fitting, Fix My
+              Tyre delivers a seamless experience across the UAE. Trusted
               for fast, on-site tyre service, 24/7.
             </p>
 
