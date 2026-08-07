@@ -283,7 +283,7 @@ layer(base);
     display: flex;
     justify-content: space-around;
     gap: 8px;
-    padding: 6px 8px;
+    padding: 10px 8px calc(10px + env(safe-area-inset-bottom, 0px));
     z-index: 9999;
     box-shadow: 0 -3px 12px rgba(0, 0, 0, 0.2);
   }
@@ -291,7 +291,7 @@ layer(base);
   .button-wrapper a.custom-btn {
     flex: 1;
     text-align: center;
-    padding: 6px 4px;
+    padding: 12px 4px;
     border-radius: 6px;
     font-size: 12px;
     white-space: nowrap;
@@ -308,7 +308,7 @@ layer(base);
   }
 
   body {
-    padding-bottom: 56px; /* prevent content from hiding behind sticky buttons */
+    padding-bottom: calc(70px + env(safe-area-inset-bottom, 0px)); /* prevent content from hiding behind sticky buttons */
   }
 }
 
