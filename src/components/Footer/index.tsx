@@ -13,7 +13,7 @@ const Footer = () => {
                   <img
                     src="/images/logo/logo-fixmytyre.png"
                     alt="Fix My Tyre"
-                    className="h-12 w-auto"
+                    className="h-16 w-auto"
                   />
                 </Link>
                 <p className="mb-4 text-base leading-relaxed text-body-color dark:text-body-color-dark">
