@@ -51,18 +51,18 @@ const Header = () => {
               <Link
                 href="/"
                 className={`header-logo flex w-full items-center gap-2 ${
-                  sticky ? "py-2 xl:py-1" : "py-3"
+                  sticky ? "py-0" : "py-0.5"
                 } `}
               >
                 <img
                   src="/images/logo/logo-fixmytyre.png"
                   alt="Fix My Tyre"
-                  className="h-20 w-auto xl:h-28"
+                  className="-my-4 h-28 w-auto xl:h-32"
                 />
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">
-              <div>
+              <div className="xl:flex-1">
                 <button
                   onClick={navbarToggleHandler}
                   id="navbarToggler"
@@ -87,13 +87,13 @@ const Header = () => {
                 </button>
                 <nav
                   id="navbarCollapse"
-                  className={`navbar border-body-color/50 dark:border-body-color/20 dark:bg-dark absolute right-0 z-30 w-[250px] rounded border-[.5px] bg-white px-6 py-4 duration-300 xl:visible xl:static xl:w-auto xl:border-none xl:!bg-transparent xl:p-0 xl:opacity-100 ${
+                  className={`navbar border-body-color/50 dark:border-body-color/20 dark:bg-dark absolute right-0 z-30 w-[250px] rounded border-[.5px] bg-white px-6 py-4 duration-300 xl:visible xl:static xl:w-full xl:border-none xl:!bg-transparent xl:p-0 xl:opacity-100 ${
                     navbarOpen
                       ? "visibility top-full opacity-100"
                       : "invisible top-[120%] opacity-0"
                   }`}
                 >
-                  <ul className="block xl:flex xl:space-x-6">
+                  <ul className="block xl:flex xl:w-full xl:items-center xl:justify-center xl:gap-x-16">
                     {menuData.map((menuItem, index) => (
                       <li key={index} className="group relative">
                         {menuItem.path ? (

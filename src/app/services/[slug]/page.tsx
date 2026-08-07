@@ -149,16 +149,15 @@ const ServicePage = async ({
                 key={item.title}
                 className="overflow-hidden rounded-lg bg-white text-center shadow-one transition-all duration-300 hover:-translate-y-1 hover:shadow-lg dark:bg-dark dark:shadow-three"
               >
-                <div className="relative h-40 w-full bg-primary/5">
-                  <Image src="/images/about/about-image.png" alt={item.title} fill className="object-cover dark:hidden" />
-                  <Image src="/images/about/about-image.png" alt={item.title} fill className="hidden object-cover dark:block" />
-                </div>
                 <div className="p-6">
                   <span className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-full bg-primary/10">
                     <CostFactorIcon name={item.icon} />
                   </span>
                   <h3 className="mb-2 text-lg font-bold text-black dark:text-white">{item.title}</h3>
                   <p className="text-sm text-body-color">{item.description}</p>
+                </div>
+                <div className="relative h-64 w-full bg-primary/5">
+                  <Image src={item.image ?? "/images/about/about-image.png"} alt={item.title} fill className="object-cover object-center" />
                 </div>
               </div>
             ))}
@@ -177,7 +176,7 @@ const ServicePage = async ({
       {service.whyChooseUs && (
         <Section>
           <SplitContent
-            imageSrc="/tyres/why-choose.png"
+            imageSrc={service.whyChooseUsImage ?? "/tyres/why-choose.png"}
             imageAlt="Why Choose Fix My Tyre"
             badge={
               <span className="absolute -top-4 left-1/2 -translate-x-1/2 rounded-full bg-primary px-5 py-2 text-sm font-semibold text-white shadow-lg lg:left-0 lg:translate-x-0">
@@ -234,7 +233,7 @@ const ServicePage = async ({
       {/* Why partner */}
       {service.whyPartner && (
         <Section>
-          <SplitContent imageSrc="/images/about/jump-start-2.png" imageAlt={service.whyPartner.title}>
+          <SplitContent imageSrc={service.whyPartnerImage ?? "/images/about/jump-start-2.png"} imageAlt={service.whyPartner.title}>
             <h2 className="mb-4 text-2xl font-bold leading-tight text-black dark:text-white sm:text-3xl">
               {service.whyPartner.title}
             </h2>
@@ -307,7 +306,7 @@ const ServicePage = async ({
       ) : (
         service.costFactors && (
           <Section className="bg-gray-light py-10 md:py-16 dark:bg-bg-color-dark">
-            <SplitContent imageSrc="/tyres/price-effect.png" imageAlt="What Affects the Price">
+            <SplitContent imageSrc={service.costFactorsImage ?? "/tyres/price-effect-v2.png"} imageAlt="What Affects the Price">
               <SectionTitle title="What Affects the Price" paragraph="Pricing isn't one-size-fits-all. A few key factors influence what you'll pay." mb="30px" />
               <div className="space-y-3">
                 {service.costFactors.map((factor, index) => (

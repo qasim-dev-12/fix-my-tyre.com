@@ -18,7 +18,7 @@ export type Service = {
   beyondJumpstart?: { title: string; intro: string; services: string[]; closing?: string };
   whyPartner?: { title: string; intro: string; points?: string[]; closing?: string };
   vehicleTypes?: { title: string; intro: string; list: string[] };
-  serviceHighlights?: { title: string; intro?: string; items: { icon: string; title: string; description: string }[] };
+  serviceHighlights?: { title: string; intro?: string; items: { icon: string; title: string; description: string; image?: string }[] };
   costFactorsTitle?: string;
   costFactorsParagraph?: string;
   costFactors?: string[];
@@ -30,12 +30,17 @@ export type Service = {
   showBrands?: boolean;
   showAreas?: boolean;
   heroImage?: string;
+  whyChooseUsImage?: string;
+  costFactorsImage?: string;
+  whyPartnerImage?: string;
 };
 
 const services: Service[] = [
   {
     slug: "tyre-replacement",
-    heroImage: "/tyres/tyre-solution.png",
+    heroImage: "/tyres/tyre-replacement-hero.png",
+    whyChooseUsImage: "/tyres/tyre-replacement-why-choose.png",
+    whyPartnerImage: "/tyres/tyre-replacement-best-solution.png",
     title: "Tyre Replacement Dubai – We Reach You in 30-45 Minutes",
     description:
       "On-site tyre replacement with a wide range of tyre brands and sizes, fitted at your location.",
@@ -50,10 +55,10 @@ const services: Service[] = [
       title: "Our Complete Roadside & Car Service in Dubai",
       intro: "While we're at your location, we can also take care of:",
       items: [
-        { icon: "wrench", title: "Tyre Fitting", description: "New tyre or spare fitted, balanced, and pressure-checked on the spot." },
-        { icon: "car", title: "Roadside Assistance", description: "Breakdowns and minor issues handled wherever you're parked or stranded." },
-        { icon: "battery", title: "Battery Replacement", description: "Genuine batteries delivered and installed if your battery also needs replacing." },
-        { icon: "clock", title: "Car Diagnostics", description: "Quick health checks on tyres, battery, and alternator while on-site." },
+        { icon: "wrench", title: "Tyre Fitting", description: "New tyre or spare fitted, balanced, and pressure-checked on the spot.", image: "/tyres/service-tyre-fitting.png" },
+        { icon: "car", title: "Roadside Assistance", description: "Breakdowns and minor issues handled wherever you're parked or stranded.", image: "/tyres/service-roadside-assistance.png" },
+        { icon: "battery", title: "Battery Replacement", description: "Genuine batteries delivered and installed if your battery also needs replacing.", image: "/tyres/service-battery-replacement.png" },
+        { icon: "clock", title: "Car Diagnostics", description: "Quick health checks on tyres, battery, and alternator while on-site.", image: "/tyres/service-car-diagnostics.png" },
       ],
     },
     getStarted: {
@@ -130,7 +135,7 @@ const services: Service[] = [
   },
   {
     slug: "tyre-repair",
-    heroImage: "/tyres/repair-tyre.png",
+    heroImage: "/tyres/tyre-repair-hero.png",
     title: "Tyre Repair Dubai – On-Site in 30-45 Minutes",
     description:
       "Professional tyre puncture repair to get you safely back on the road without a full replacement.",
@@ -145,10 +150,10 @@ const services: Service[] = [
       title: "Our Complete Roadside & Car Service in Dubai",
       intro: "While we're fixing your tyre, we can also take care of:",
       items: [
-        { icon: "wrench", title: "Tyre Fitting", description: "Puncture repair, patching, or spare/replacement tyre fitting on the spot." },
-        { icon: "car", title: "Roadside Assistance", description: "Lockouts, breakdowns, and minor repairs handled wherever you're stranded." },
-        { icon: "battery", title: "Battery Replacement", description: "Genuine batteries delivered and fitted at your location if your battery also needs it." },
-        { icon: "clock", title: "Car Diagnostics", description: "Quick checks on battery, alternator, and tyre health while we're already there." },
+        { icon: "wrench", title: "Tyre Fitting", description: "Puncture repair, patching, or spare/replacement tyre fitting on the spot.", image: "/tyres/service-tyre-fitting.png" },
+        { icon: "car", title: "Roadside Assistance", description: "Lockouts, breakdowns, and minor repairs handled wherever you're stranded.", image: "/tyres/service-roadside-assistance.png" },
+        { icon: "battery", title: "Battery Replacement", description: "Genuine batteries delivered and fitted at your location if your battery also needs it.", image: "/tyres/service-battery-replacement.png" },
+        { icon: "clock", title: "Car Diagnostics", description: "Quick checks on battery, alternator, and tyre health while we're already there.", image: "/tyres/service-car-diagnostics.png" },
       ],
     },
     getStarted: {
@@ -237,6 +242,16 @@ const services: Service[] = [
       title: "What Is Our Flat Tyre Change Service?",
       paragraph:
         "Our flat tyre service is designed to get you moving again without the hassle of towing your vehicle. Whether your tyre is punctured, worn out, or completely deflated, our trained team will inspect the damage thoroughly, replace the tyre with your spare or a new one if needed, check wheel alignment if applicable, ensure proper air pressure and safety standards, and offer you tyre purchase options if your spare is missing or unusable. We also assist customers who have lost wheel nuts, damaged rims, or require emergency flat tire help in parking garages or basements.",
+    },
+    serviceHighlights: {
+      title: "Our Complete Roadside & Car Service in Dubai",
+      intro: "While we're at your location, we can also take care of:",
+      items: [
+        { icon: "wrench", title: "Tyre Fitting", description: "New tyre or spare fitted, balanced, and pressure-checked on the spot.", image: "/tyres/service-tyre-fitting.png" },
+        { icon: "car", title: "Roadside Assistance", description: "Breakdowns and minor issues handled wherever you're parked or stranded.", image: "/tyres/service-roadside-assistance.png" },
+        { icon: "battery", title: "Battery Replacement", description: "Genuine batteries delivered and installed if your battery also needs replacing.", image: "/tyres/service-battery-replacement.png" },
+        { icon: "clock", title: "Car Diagnostics", description: "Quick health checks on tyres, battery, and alternator while on-site.", image: "/tyres/service-car-diagnostics.png" },
+      ],
     },
     whyEssential: {
       title: "Our Mobile Tyre Fitment Van – A Garage On Wheels",
@@ -338,10 +353,10 @@ const services: Service[] = [
       title: "Our Complete Roadside & Car Service in Dubai",
       intro: "Beyond tyre repair, our technicians arrive ready to handle whatever else your car needs:",
       items: [
-        { icon: "wrench", title: "Tyre Fitting", description: "Puncture repair, patching, and spare or replacement tyre fitting on the spot." },
-        { icon: "car", title: "Roadside Assistance", description: "Lockouts, breakdowns, and minor repairs handled wherever you're stranded." },
-        { icon: "battery", title: "Battery Replacement", description: "Genuine batteries delivered and fitted at your location if your battery is also due." },
-        { icon: "clock", title: "Car Diagnostics", description: "Quick checks on battery, alternator, and tyre health while we're already on-site." },
+        { icon: "wrench", title: "Tyre Fitting", description: "Puncture repair, patching, and spare or replacement tyre fitting on the spot.", image: "/tyres/service-tyre-fitting.png" },
+        { icon: "car", title: "Roadside Assistance", description: "Lockouts, breakdowns, and minor repairs handled wherever you're stranded.", image: "/tyres/service-roadside-assistance.png" },
+        { icon: "battery", title: "Battery Replacement", description: "Genuine batteries delivered and fitted at your location if your battery is also due.", image: "/tyres/service-battery-replacement.png" },
+        { icon: "clock", title: "Car Diagnostics", description: "Quick checks on battery, alternator, and tyre health while we're already on-site.", image: "/tyres/service-car-diagnostics.png" },
       ],
     },
     getStarted: {
@@ -739,7 +754,9 @@ const services: Service[] = [
   },
   {
     slug: "buy-new-tyre",
-    heroImage: "/tyres/buy-new-tyre.png",
+    heroImage: "/tyres/buy-new-tyre-hero.png",
+    whyChooseUsImage: "/tyres/buy-new-tyre-why-choose.png",
+    costFactorsImage: "/tyres/buy-new-tyre-price-effect-v2.png",
     title: "Buy New Tyre Dubai – Delivered & Fitted in 20-30 Minutes",
     description:
       "Order brand-new tyres online and get them delivered and fitted at your location, starting from AED 79.",
@@ -749,6 +766,16 @@ const services: Service[] = [
       title: "Order a New Tyre, We Bring It to You",
       paragraph:
         "Browse our tyre brands, pick your size, and book online or by phone. Our mobile fitting vans reach you in 20-30 minutes anywhere in Dubai and fit your new tyre on the spot — balanced and pressure-checked before we leave.",
+    },
+    serviceHighlights: {
+      title: "Our Complete Roadside & Car Service in Dubai",
+      intro: "While we're at your location, we can also take care of:",
+      items: [
+        { icon: "wrench", title: "Tyre Fitting", description: "New tyre or spare fitted, balanced, and pressure-checked on the spot.", image: "/tyres/service-tyre-fitting.png" },
+        { icon: "car", title: "Roadside Assistance", description: "Breakdowns and minor issues handled wherever you're parked or stranded.", image: "/tyres/service-roadside-assistance.png" },
+        { icon: "battery", title: "Battery Replacement", description: "Genuine batteries delivered and installed if your battery also needs replacing.", image: "/tyres/service-battery-replacement.png" },
+        { icon: "clock", title: "Car Diagnostics", description: "Quick health checks on tyres, battery, and alternator while on-site.", image: "/tyres/service-car-diagnostics.png" },
+      ],
     },
     getStarted: {
       title: "How to Buy a New Tyre",
@@ -801,7 +828,8 @@ const services: Service[] = [
   },
   {
     slug: "air-fill",
-    heroImage: "/tyres/tyre-air-fill.png",
+    heroImage: "/tyres/air-fill-hero.png",
+    whyChooseUsImage: "/tyres/air-fill-why-choose.png",
     title: "Tyre Air Fill Dubai – On-Site in 20-30 Minutes",
     description:
       "Quick, accurate tyre air top-up and pressure check at your location, starting from AED 79.",
@@ -811,6 +839,16 @@ const services: Service[] = [
       title: "Mobile Tyre Air Fill, Wherever You Are",
       paragraph:
         "Under- or over-inflated tyres wear unevenly and affect handling. Our technicians reach you in 20-30 minutes anywhere in Dubai with calibrated equipment to top up and check every tyre to the correct pressure.",
+    },
+    serviceHighlights: {
+      title: "Our Complete Roadside & Car Service in Dubai",
+      intro: "While we're at your location, we can also take care of:",
+      items: [
+        { icon: "wrench", title: "Tyre Fitting", description: "New tyre or spare fitted, balanced, and pressure-checked on the spot.", image: "/tyres/service-tyre-fitting.png" },
+        { icon: "car", title: "Roadside Assistance", description: "Breakdowns and minor issues handled wherever you're parked or stranded.", image: "/tyres/service-roadside-assistance.png" },
+        { icon: "battery", title: "Battery Replacement", description: "Genuine batteries delivered and installed if your battery also needs replacing.", image: "/tyres/service-battery-replacement.png" },
+        { icon: "clock", title: "Car Diagnostics", description: "Quick health checks on tyres, battery, and alternator while on-site.", image: "/tyres/service-car-diagnostics.png" },
+      ],
     },
     getStarted: {
       title: "How Our Air Fill Service Works",
@@ -856,7 +894,8 @@ const services: Service[] = [
   },
   {
     slug: "spare-tyre-change",
-    heroImage: "/tyres/spare-tyre-change.png",
+    heroImage: "/tyres/spare-tyre-change-hero.png",
+    whyChooseUsImage: "/tyres/spare-tyre-change-why-choose.png",
     title: "Spare Tyre Change Dubai – On-Site in 20-30 Minutes",
     description:
       "Fast spare tyre fitting to get you safely back on the road, starting from AED 79.",
@@ -866,6 +905,16 @@ const services: Service[] = [
       title: "Mobile Spare Tyre Fitting, Wherever You Are",
       paragraph:
         "A flat tyre can happen anywhere. Our technicians reach you in 20-30 minutes anywhere in Dubai, fit your spare tyre safely, and check it's roadworthy before leaving.",
+    },
+    serviceHighlights: {
+      title: "Our Complete Roadside & Car Service in Dubai",
+      intro: "While we're at your location, we can also take care of:",
+      items: [
+        { icon: "wrench", title: "Tyre Fitting", description: "New tyre or spare fitted, balanced, and pressure-checked on the spot.", image: "/tyres/service-tyre-fitting.png" },
+        { icon: "car", title: "Roadside Assistance", description: "Breakdowns and minor issues handled wherever you're parked or stranded.", image: "/tyres/service-roadside-assistance.png" },
+        { icon: "battery", title: "Battery Replacement", description: "Genuine batteries delivered and installed if your battery also needs replacing.", image: "/tyres/service-battery-replacement.png" },
+        { icon: "clock", title: "Car Diagnostics", description: "Quick health checks on tyres, battery, and alternator while on-site.", image: "/tyres/service-car-diagnostics.png" },
+      ],
     },
     getStarted: {
       title: "How Spare Tyre Change Works",
@@ -912,7 +961,8 @@ const services: Service[] = [
   },
   {
     slug: "fix-puncture-tyre",
-    heroImage: "/tyres/fix-puncture-tyre.png",
+    heroImage: "/tyres/fix-puncture-tyre-hero.png",
+    whyChooseUsImage: "/tyres/fix-puncture-tyre-why-choose.png",
     title: "Fix Puncture Tyre Dubai – On-Site in 20-30 Minutes",
     description:
       "Quick puncture repair to get you safely back on the road without a full replacement, starting from AED 79.",
@@ -922,6 +972,16 @@ const services: Service[] = [
       title: "Mobile Puncture Repair, Wherever You Are",
       paragraph:
         "A nail or sharp debris can puncture a tyre anywhere. Our technicians reach you in 20-30 minutes anywhere in Dubai, inspect the damage, and plug or patch the puncture so you're back on the road quickly.",
+    },
+    serviceHighlights: {
+      title: "Our Complete Roadside & Car Service in Dubai",
+      intro: "While we're at your location, we can also take care of:",
+      items: [
+        { icon: "wrench", title: "Tyre Fitting", description: "New tyre or spare fitted, balanced, and pressure-checked on the spot.", image: "/tyres/service-tyre-fitting.png" },
+        { icon: "car", title: "Roadside Assistance", description: "Breakdowns and minor issues handled wherever you're parked or stranded.", image: "/tyres/service-roadside-assistance.png" },
+        { icon: "battery", title: "Battery Replacement", description: "Genuine batteries delivered and installed if your battery also needs replacing.", image: "/tyres/service-battery-replacement.png" },
+        { icon: "clock", title: "Car Diagnostics", description: "Quick health checks on tyres, battery, and alternator while on-site.", image: "/tyres/service-car-diagnostics.png" },
+      ],
     },
     getStarted: {
       title: "Puncture Repair Process Explained",
