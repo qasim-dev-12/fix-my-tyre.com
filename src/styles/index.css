@@ -319,7 +319,7 @@ layer(base);
 @media (max-width: 768px) {
   .button-wrapper {
     position: fixed;
-    bottom: 12px;
+    bottom: 6px;
     left: 0;
     width: 100%;
     display: flex;

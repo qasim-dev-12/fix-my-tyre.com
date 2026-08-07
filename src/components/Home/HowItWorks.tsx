@@ -40,7 +40,7 @@ const HowItWorks = () => {
                   </span>
                 </>
               )}
-              <span className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary text-white">
+              <span className="icon-float mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary text-white">
                 <svg viewBox="0 0 24 24" fill="currentColor" className="h-5 w-5">{icons[i]}</svg>
               </span>
               <span className="mb-2 block text-xs font-semibold text-primary">Step {i + 1}</span>

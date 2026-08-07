@@ -13,11 +13,12 @@ const BrandsShowcase = () => {
           center
         />
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
-          {tyreBrands.map((brand) => (
+          {tyreBrands.map((brand, i) => (
             <Link
               key={brand.slug}
               href={`/tyre-brands/${brand.slug}`}
-              className="relative block aspect-[4/3] w-full overflow-hidden rounded-2xl bg-white"
+              style={{ animationDelay: `${(i % 6) * 80}ms` }}
+              className="relative block aspect-[4/3] w-full animate-[fadeInUp_0.5s_ease_both] overflow-hidden rounded-2xl bg-white opacity-0 transition-transform duration-300 hover:-translate-y-1"
             >
               {brand.image ? (
                 <Image src={brand.image} alt={brand.title} fill className="object-cover" />

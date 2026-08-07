@@ -22,7 +22,8 @@ const AreasCovered = () => {
             <Link
               key={area}
               href={`/areas/${slugify(area)}`}
-              className="overflow-hidden rounded-xl border border-stroke-dark bg-dark"
+              style={{ animationDelay: `${(index % AREA_PHOTOS) * 80}ms` }}
+              className="animate-[fadeInUp_0.5s_ease_both] overflow-hidden rounded-xl border border-stroke-dark bg-dark opacity-0 transition-transform duration-300 hover:-translate-y-1"
             >
               <div className="relative h-40 w-full">
                 <Image

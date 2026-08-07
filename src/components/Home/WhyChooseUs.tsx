@@ -30,8 +30,12 @@ const WhyChooseUs = () => {
         <SectionTitle title="Why Choose Us" paragraph="" center />
         <div className="mx-auto max-w-3xl divide-y divide-stroke-dark">
           {items.map((item, i) => (
-            <div key={item.title} className="flex gap-6 py-6">
-              <span className="text-3xl font-extrabold text-primary/30 sm:text-4xl">
+            <div
+              key={item.title}
+              style={{ animationDelay: `${i * 100}ms` }}
+              className="animate-[fadeInUp_0.5s_ease_both] flex gap-6 py-6 opacity-0"
+            >
+              <span className="icon-pulse text-3xl font-extrabold text-primary/30 sm:text-4xl">
                 {String(i + 1).padStart(2, "0")}
               </span>
               <div>

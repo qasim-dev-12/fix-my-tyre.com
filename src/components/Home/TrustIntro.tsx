@@ -29,7 +29,7 @@ const TrustIntro = () => {
           </div>
 
           <div className="text-center md:text-left">
-            <span className="mx-auto mb-6 flex h-14 w-14 items-center justify-center rounded-full bg-primary/10 text-primary md:mx-0">
+            <span className="icon-pulse mx-auto mb-6 flex h-14 w-14 items-center justify-center rounded-full bg-primary/10 text-primary md:mx-0">
               <svg viewBox="0 0 24 24" fill="currentColor" className="h-7 w-7">
                 <path d="M12 2l7 3v6c0 5-3.4 8.6-7 10-3.6-1.4-7-5-7-10V5l7-3zm-1.2 12.6l5-5-1.4-1.4-3.6 3.6-1.6-1.6-1.4 1.4 3 3z" />
               </svg>
