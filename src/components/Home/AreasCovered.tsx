@@ -4,7 +4,7 @@ import SectionTitle from "../Common/SectionTitle";
 import areas from "@/data/areas";
 import { slugify } from "@/lib/areaSlug";
 
-const PHONE = "+971543170355";
+const PHONE = "+971547613616";
 const AREA_PHOTOS = 8;
 
 const AreasCovered = () => {
@@ -45,7 +45,7 @@ const AreasCovered = () => {
             Call Now
           </a>
           <a
-            href="https://wa.me/971543170355"
+            href="https://wa.me/971547613616"
             target="_blank"
             rel="noopener noreferrer"
             className="custom-btn whatsapp-btn wobble-btn"

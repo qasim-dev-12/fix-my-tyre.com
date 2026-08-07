@@ -10,8 +10,8 @@ export const metadata: Metadata = {
   description: "Warranty terms for tyres fitted by 800 Speedy.",
 };
 
-const PHONE = "+971543170355";
-const WHATSAPP = "https://wa.me/971543170355";
+const PHONE = "+971547613616";
+const WHATSAPP = "https://wa.me/971547613616";
 
 const warrantyLengths = [{ value: "2", label: "Months Warranty on Every New Tyre" }];
 

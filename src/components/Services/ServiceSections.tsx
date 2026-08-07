@@ -76,7 +76,7 @@ export const PrimaryButton = ({ href, children }: { href: string; children: Reac
       {children}
     </a>
     <a
-      href="https://wa.me/971543170355"
+      href="https://wa.me/971547613616"
       target="_blank"
       rel="noopener noreferrer"
       className="custom-btn whatsapp-btn wobble-btn"
