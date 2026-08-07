@@ -4,7 +4,7 @@ const PHONE = "+971547613616";
 
 const TrustIntro = () => {
   return (
-    <section className="py-10 md:py-20 lg:py-28">
+    <section className="overflow-x-hidden py-10 md:py-20 lg:py-28">
       <div className="container">
         <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-2">
           <div className="relative">

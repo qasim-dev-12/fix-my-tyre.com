@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import menuData from "./menuData";
 
 const Header = () => {
@@ -10,6 +10,19 @@ const Header = () => {
   const navbarToggleHandler = () => {
     setNavbarOpen(!navbarOpen);
   };
+  const navWrapperRef = useRef<HTMLDivElement>(null);
+
+  // Close mobile menu on outside click
+  useEffect(() => {
+    if (!navbarOpen) return;
+    const handleClickOutside = (e: MouseEvent) => {
+      if (navWrapperRef.current && !navWrapperRef.current.contains(e.target as Node)) {
+        setNavbarOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [navbarOpen]);
 
   // Sticky Navbar
   const [sticky, setSticky] = useState(false);
@@ -62,12 +75,12 @@ const Header = () => {
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">
-              <div className="xl:flex-1">
+              <div className="xl:flex-1" ref={navWrapperRef}>
                 <button
                   onClick={navbarToggleHandler}
                   id="navbarToggler"
                   aria-label="Mobile Menu"
-                  className="ring-primary absolute top-1/2 right-4 block translate-y-[-50%] rounded-lg px-3 py-[6px] focus:ring-2 xl:hidden"
+                  className="ring-primary absolute top-1/2 right-4 z-40 block translate-y-[-50%] rounded-lg px-3 py-[6px] focus:ring-2 xl:hidden"
                 >
                   <span
                     className={`relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-white ${
@@ -102,7 +115,7 @@ const Header = () => {
                             className={`flex py-2 text-base xl:mr-0 xl:inline-flex xl:px-0 xl:py-6 ${
                               usePathName === menuItem.path
                                 ? "text-primary"
-                                : "text-dark hover:text-primary xl:text-white"
+                                : "text-dark hover:text-primary dark:text-white xl:text-white"
                             }`}
                           >
                             {menuItem.title}
@@ -111,7 +124,7 @@ const Header = () => {
                           <>
                             <p
                               onClick={() => handleSubmenu(index)}
-                              className="text-dark group-hover:text-primary flex cursor-pointer items-center justify-between py-2 text-base whitespace-nowrap xl:mr-0 xl:inline-flex xl:px-0 xl:py-6 xl:text-white"
+                              className="text-dark group-hover:text-primary dark:text-white flex cursor-pointer items-center justify-between py-2 text-base whitespace-nowrap xl:mr-0 xl:inline-flex xl:px-0 xl:py-6 xl:text-white"
                             >
                               {menuItem.title}
                               <span className="pl-3">
@@ -134,7 +147,11 @@ const Header = () => {
                                 <Link
                                   href={submenuItem.path}
                                   key={index}
-                                  className="text-dark hover:text-primary block rounded-sm py-2.5 text-sm xl:px-3 dark:text-white/70 dark:hover:text-white"
+                                  className={`block rounded-sm py-2.5 text-sm xl:px-3 ${
+                                    usePathName === submenuItem.path
+                                      ? "text-primary"
+                                      : "text-dark hover:text-primary dark:text-white/70 dark:hover:text-white"
+                                  }`}
                                 >
                                   {submenuItem.title}
                                 </Link>

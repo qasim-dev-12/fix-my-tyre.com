@@ -45,13 +45,13 @@ const Hero = () => {
     >
       <div className="container">
         <div className="mx-auto max-w-3xl text-center">
-          <h1 className="mb-6 text-2xl font-semibold leading-tight text-white sm:text-4xl md:text-5xl">
+          <h1 className="mobile-fade-in-up mb-6 text-2xl font-semibold leading-tight text-white sm:text-4xl md:text-5xl">
             Fastest On-Site Tyre Repair in Dubai— Arriving in Just 20–30 Minutes
           </h1>
         </div>
 
         <div className="mx-auto max-w-3xl rounded-2xl border border-stroke-dark bg-dark/60 px-6 py-8 md:px-10 md:py-10">
-          <h2 className="mb-6 text-center text-xl font-semibold leading-tight text-white sm:text-2xl">
+          <h2 className="mobile-fade-in-up-delay mb-6 text-center text-xl font-semibold leading-tight text-white sm:text-2xl">
             24/7 Onsite Tyre <span className="text-primary">Repair</span> at your Service
           </h2>
 

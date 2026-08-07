@@ -50,7 +50,7 @@ export const SplitContent = ({
   children: React.ReactNode;
 }) => (
   <div className="-mx-4 flex flex-wrap items-center">
-    <div className={`w-full px-4 lg:w-5/12 ${imageSide === "right" ? "lg:order-2" : ""}`}>
+    <div className={`mb-8 w-full px-4 lg:mb-0 lg:w-5/12 ${imageSide === "right" ? "lg:order-2" : ""}`}>
       <div className="relative">
         {imageSrc ? (
           <div className="relative h-[300px] w-full overflow-hidden rounded-lg shadow-one">
@@ -130,7 +130,7 @@ export const costFactorIcons: Record<string, string> = {
 };
 
 export const CostFactorIcon = ({ name }: { name: string }) => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="h-7 w-7 text-primary">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="icon-float h-7 w-7 text-primary">
     <path d={costFactorIcons[name]} strokeLinecap="round" strokeLinejoin="round" />
   </svg>
 );
@@ -143,7 +143,7 @@ export const BorderList = ({ items }: { items: string[] }) => (
         key={item}
         className="flex items-start gap-3 rounded-lg border-l-4 border-primary bg-white p-4 text-base text-body-color shadow-one transition-all duration-300 hover:translate-x-1 hover:shadow-md dark:bg-dark dark:shadow-three"
       >
-        <span className="mt-1 text-primary">✓</span>
+        <span className="icon-pulse mt-1 text-primary">✓</span>
         {item}
       </div>
     ))}

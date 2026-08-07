@@ -33,11 +33,11 @@ const ServicePage = async ({
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 md:w-7/12">
               <div className="mb-8 max-w-[570px] md:mb-0">
-                <h1 className="mb-5 text-2xl font-bold text-black dark:text-white sm:text-3xl">
+                <h1 className="mobile-fade-in-up mb-5 text-2xl font-bold text-black dark:text-white sm:text-3xl">
                   {service.title}
                 </h1>
                 {service.intro.split("\n\n").map((para) => (
-                  <p key={para} className="mb-4 text-base font-medium leading-relaxed text-body-color">
+                  <p key={para} className="mobile-fade-in-up-delay mb-4 text-base font-medium leading-relaxed text-body-color">
                     {para}
                   </p>
                 ))}
@@ -92,7 +92,7 @@ const ServicePage = async ({
           <div className="relative flex flex-wrap justify-center gap-10">
             {service.getStarted.steps.map((s, index) => (
               <div key={s.title} className="relative w-full text-center sm:w-[calc(33.333%-1.7rem)]">
-                <span className="relative z-10 mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full border-4 border-gray-light bg-primary text-lg font-bold text-white dark:border-bg-color-dark">
+                <span className="icon-pulse relative z-10 mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full border-4 border-gray-light bg-primary text-lg font-bold text-white dark:border-bg-color-dark">
                   {index + 1}
                 </span>
                 <h3 className="mb-2 text-lg font-bold text-black dark:text-white">{s.title}</h3>
@@ -150,7 +150,7 @@ const ServicePage = async ({
                 className="overflow-hidden rounded-lg bg-white text-center shadow-one transition-all duration-300 hover:-translate-y-1 hover:shadow-lg dark:bg-dark dark:shadow-three"
               >
                 <div className="p-6">
-                  <span className="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-full bg-primary/10">
+                  <span className="icon-pulse mb-4 inline-flex h-14 w-14 items-center justify-center rounded-full bg-primary/10">
                     <CostFactorIcon name={item.icon} />
                   </span>
                   <h3 className="mb-2 text-lg font-bold text-black dark:text-white">{item.title}</h3>
@@ -179,7 +179,7 @@ const ServicePage = async ({
             imageSrc={service.whyChooseUsImage ?? "/tyres/why-choose.png"}
             imageAlt="Why Choose Fix My Tyre"
             badge={
-              <span className="absolute -top-4 left-1/2 -translate-x-1/2 rounded-full bg-primary px-5 py-2 text-sm font-semibold text-white shadow-lg lg:left-0 lg:translate-x-0">
+              <span className="absolute -top-3 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-primary px-3 py-1.5 text-xs font-semibold text-white shadow-lg sm:px-5 sm:py-2 sm:text-sm lg:left-0 lg:translate-x-0">
                 11+ Years Experience
               </span>
             }

@@ -51,6 +51,48 @@ layer(base);
   animation: twinkle 1.4s ease-in-out infinite;
 }
 
+@keyframes iconPulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+/* Always-on icon motion (services pages) — kept subtle so it doesn't distract */
+.icon-float {
+  display: inline-block;
+  animation: float 3s ease-in-out infinite;
+  will-change: transform;
+}
+
+.icon-pulse {
+  display: inline-block;
+  animation: iconPulse 2s ease-in-out infinite;
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .icon-float,
+  .icon-pulse {
+    animation: none;
+  }
+}
+
+/* Text entrance animation, mobile only */
+@media (max-width: 768px) {
+  .mobile-fade-in-up {
+    animation: fadeInUp 0.6s ease-out both;
+  }
+  .mobile-fade-in-up-delay {
+    animation: fadeInUp 0.6s ease-out 0.15s both;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mobile-fade-in-up,
+  .mobile-fade-in-up-delay {
+    animation: none;
+  }
+}
+
 @theme {
   --breakpoint-*: initial;
   --breakpoint-xs: 450px;
@@ -281,15 +323,15 @@ layer(base);
     left: 0;
     width: 100%;
     display: flex;
-    justify-content: space-around;
-    gap: 8px;
+    justify-content: center;
+    gap: 12px;
     padding: 10px 8px calc(10px + env(safe-area-inset-bottom, 0px));
     z-index: 9999;
     box-shadow: 0 -3px 12px rgba(0, 0, 0, 0.2);
   }
 
   .button-wrapper a.custom-btn {
-    flex: 1;
+    flex: 0 1 160px;
     text-align: center;
     padding: 12px 4px;
     border-radius: 6px;

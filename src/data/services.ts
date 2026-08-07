@@ -136,6 +136,8 @@ const services: Service[] = [
   {
     slug: "tyre-repair",
     heroImage: "/tyres/tyre-repair-hero.png",
+    whyChooseUsImage: "/tyres/tyre-replacement-why-choose.png",
+    whyPartnerImage: "/tyres/tyre-replacement-best-solution.png",
     title: "Tyre Repair Dubai – On-Site in 30-45 Minutes",
     description:
       "Professional tyre puncture repair to get you safely back on the road without a full replacement.",
