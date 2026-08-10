@@ -23,7 +23,7 @@ export default function RootLayout({
       */}
       <head>
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=AW-18223576133"
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18354005629"
           strategy="afterInteractive"
         />
         <Script id="gtag-init" strategy="afterInteractive">
@@ -31,7 +31,7 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'AW-18223576133');
+            gtag('config', 'AW-18354005629');
           `}
         </Script>
         <Script id="tel-click-conversion" strategy="afterInteractive">
@@ -39,7 +39,7 @@ export default function RootLayout({
             (function(){
                 document.addEventListener('click', function(e){
                 if(e.target.closest('a[href^="tel:"]')){
-                    gtag('event', 'conversion', {'send_to': 'AW-18223576133/xuRYCLjQg9IcEMXo1vFD'});
+                    gtag('event', 'conversion', {'send_to': 'AW-18354005629/yGWaCIDzpd8cEP3M769E'});
                     CG.conversion();
                     initCCConvertion();
                 }
@@ -49,45 +49,9 @@ export default function RootLayout({
         </Script>
         <Script id="whatsapp-click-conversion" strategy="afterInteractive">
           {`
-            document.addEventListener('click', function(e){
-              if(e.target.closest('a[href^="https://wa.me/"]')){
-                gtag('event', 'conversion', {'send_to': 'AW-18223576133/IABYCPi-idIcEMXo1vFD'});
-                CG.conversion();
-                initCCConvertion();
-              }
-            });
-          `}
-        </Script>
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=AW-18333851092"
-          strategy="afterInteractive"
-        />
-        <Script id="gtag-init-2" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'AW-18333851092');
-          `}
-        </Script>
-        <Script id="tel-click-conversion-2" strategy="afterInteractive">
-          {`
-            (function(){
-                document.addEventListener('click', function(e){
-                if(e.target.closest('a[href^="tel:"]')){
-                    gtag('event', 'conversion', {'send_to': 'AW-18333851092/1XjSCPjyh9kcENS7oaZE'});
-                    CG.conversion();
-                    initCCConvertion();
-                }
-                });
-            })();
-          `}
-        </Script>
-        <Script id="whatsapp-click-conversion-2" strategy="afterInteractive">
-          {`
             window.addEventListener('load', function(){
               jQuery('a[href^="https://wa.me/\"]').click(function(){
-                gtag('event', 'conversion', {'send_to': 'AW-18333851092/1XjSCPjyh9kcENS7oaZE'});
+                gtag('event', 'conversion', {'send_to': 'AW-18354005629/vHB3CIP2tt8cEP3M769E'});
                 CG.conversion();
                 initCCConvertion();
               });
