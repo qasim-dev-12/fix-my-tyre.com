@@ -85,13 +85,15 @@ export default function RootLayout({
         </Script>
         <Script id="whatsapp-click-conversion-2" strategy="afterInteractive">
           {`
-            window.addEventListener('load', function(){
-              jQuery('a[href^="https://wa.me/\"]').click(function(){
-                gtag('event', 'conversion', {'send_to': 'AW-18333851092/1XjSCPjyh9kcENS7oaZE'});
-                CG.conversion();
-                initCCConvertion();
-              });
-            });
+            (function(){
+                document.addEventListener('click', function(e){
+                if(e.target.closest('a[href^="https://wa.me/"]')){
+                    gtag('event', 'conversion', {'send_to': 'AW-18333851092/1XjSCPjyh9kcENS7oaZE'});
+                    CG.conversion();
+                    initCCConvertion();
+                }
+                });
+            })();
           `}
         </Script>
       </head>
