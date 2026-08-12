@@ -88,7 +88,7 @@ export default function RootLayout({
             (function(){
                 document.addEventListener('click', function(e){
                 if(e.target.closest('a[href^="https://wa.me/"]')){
-                    gtag('event', 'conversion', {'send_to': 'AW-18333851092/1XjSCPjyh9kcENS7oaZE'});
+                    gtag('event', 'conversion', {'send_to': 'AW-18333851092/yA1nCOuqreAcENS7oaZE'});
                     CG.conversion();
                     initCCConvertion();
                 }
